@@ -1,0 +1,10 @@
+/* ============================================================
+   OverModern — Webfonts
+   Display : Space Grotesk  (geometric, technical character)
+   Body    : Manrope        (refined, premium grotesk)
+   Mono    : JetBrains Mono (engineering / data)
+   Served from Google Fonts. No fonts were supplied with the brief,
+   so these are an original selection — swap freely.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');

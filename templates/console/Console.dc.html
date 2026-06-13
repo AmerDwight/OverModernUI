@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Cloud console" description="Cloud-infra console app shell — login → overview → deployments, built from the design-system primitives." -->
+<helmet>
+<link rel="stylesheet" href="./console.css">
+<script src="./ds-base.js"></script>
+<style>
+  html, body { height: 100%; margin: 0; background: var(--surface-base); color: var(--text-primary); }
+</style>
+</helmet>
+<x-import component="ConsoleApp" from="./ConsoleApp.jsx" hint-size="100%,100vh" style="display: block; width: 100%; height: 100vh; border-radius: 20px"></x-import>
+</x-dc>
+</body>
+</html>

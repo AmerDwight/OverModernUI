@@ -1,0 +1,25 @@
+<!-- @dsCard group="Type" viewport="700x180" name="Mono & Eyebrow — JetBrains Mono" subtitle="Data, code & uppercase overline labels" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); }
+  .eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: var(--ls-overline);
+             text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 16px; }
+  .mono { font-family: var(--font-mono); font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
+  .mono .k { color: var(--azure-400); }
+  .mono .n { color: var(--cyan-400); }
+  .mono .c { color: var(--text-disabled); }
+</style>
+</head>
+<body>
+  <div class="eyebrow">// System · Telemetry · 04</div>
+  <div class="mono">
+    <span class="k">const</span> latency = <span class="n">12.4</span>ms <span class="c">// p99</span><br>
+    <span class="k">status</span> = OPERATIONAL · <span class="n">99.98%</span> uptime<br>
+    throughput → <span class="n">1.2M</span> req/s
+  </div>
+</body>
+</html>

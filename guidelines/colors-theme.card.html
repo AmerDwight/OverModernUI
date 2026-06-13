@@ -1,0 +1,41 @@
+<!-- @dsCard group="Colors" viewport="700x240" name="Light & Dark Themes" subtitle="Opt-in light via [data-theme=light]; same azure accent" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; background: #000; display: grid; grid-template-columns: 1fr 1fr; }
+  .pane { padding: 22px; background: var(--surface-base); min-height: 196px; }
+  .tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 14px; }
+  .card { background: var(--surface-glass); border: 1px solid var(--border-default);
+          border-radius: var(--radius-lg); padding: 16px; backdrop-filter: blur(var(--blur-md));
+          box-shadow: var(--shadow-lg), var(--inset-highlight); }
+  .card h4 { font-family: var(--font-display); font-size: 17px; color: var(--text-primary); margin: 0 0 4px; }
+  .card p { font-size: 13px; color: var(--text-secondary); margin: 0 0 14px; }
+  .btn { display: inline-flex; align-items: center; height: 34px; padding: 0 16px; border-radius: var(--radius-pill);
+         background: var(--accent); color: var(--on-accent); font-family: var(--font-body); font-weight: 600;
+         font-size: 13px; box-shadow: var(--glow-accent); }
+  .btn.ghost { background: transparent; color: var(--text-secondary); box-shadow: none; border: 1px solid var(--border-default); margin-left: 8px; }
+</style>
+</head>
+<body>
+  <div class="pane">
+    <div class="tag">// Dark · default</div>
+    <div class="card">
+      <h4>Obsidian glass</h4>
+      <p>Depth through light, not weight.</p>
+      <span class="btn">Deploy</span><span class="btn ghost">Cancel</span>
+    </div>
+  </div>
+  <div class="pane" data-theme="light">
+    <div class="tag">// Light · opt-in</div>
+    <div class="card">
+      <h4>Paper &amp; ink</h4>
+      <p>Cool whites, hairline ink, identical accent.</p>
+      <span class="btn">Deploy</span><span class="btn ghost">Cancel</span>
+    </div>
+  </div>
+</body>
+</html>

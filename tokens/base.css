@@ -1,0 +1,95 @@
+/* ============================================================
+   OverModern — Base layer
+   Element defaults + a few foundational utility classes that
+   express the brand (glass panels, grid texture, eyebrow labels).
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text-primary);
+  background: var(--surface-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-semibold);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+p { margin: 0; }
+
+a {
+  color: var(--text-accent);
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+a:hover { color: var(--accent-hover); }
+
+code, pre, kbd { font-family: var(--font-mono); }
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--surface-base), 0 0 0 4px var(--focus-ring);
+}
+
+::selection { background: var(--accent-soft); color: var(--text-primary); }
+
+/* ---- Brand utilities ---------------------------------------- */
+
+/* Eyebrow / overline label */
+.om-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-overline);
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+/* Glass panel — the signature elevated surface */
+.om-glass {
+  background: var(--surface-glass);
+  border: var(--hairline) solid var(--border-default);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-lg), var(--inset-highlight);
+}
+
+/* Fine technical grid texture for backgrounds */
+.om-grid-bg {
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Radial accent aura — for hero atmospheres */
+.om-aura {
+  background:
+    radial-gradient(60% 50% at 50% 0%, rgb(var(--azure-500-rgb) / 0.16), transparent 70%);
+}
+
+/* Gradient accent text */
+.om-accent-text {
+  background: linear-gradient(100deg, var(--azure-300), var(--cyan-400));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

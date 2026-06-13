@@ -1,0 +1,24 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Corner Radii" subtitle="xs 4 → 2xl 32 → pill" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); display:flex; gap: 14px; align-items:flex-start; }
+  .item { text-align:center; }
+  .box { width: 78px; height: 78px; background: var(--surface-glass); border: 1px solid var(--border-default);
+         box-shadow: var(--inset-highlight); }
+  .item span { display:block; font-family: var(--font-mono); font-size: 10px; color: var(--text-tertiary); margin-top: 9px; }
+</style>
+</head>
+<body>
+  <div class="item"><div class="box" style="border-radius:var(--radius-xs)"></div><span>xs · 4</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-sm)"></div><span>sm · 8</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-md)"></div><span>md · 12</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-lg)"></div><span>lg · 16</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-xl)"></div><span>xl · 22</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-2xl)"></div><span>2xl · 32</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-pill)"></div><span>pill</span></div>
+</body>
+</html>

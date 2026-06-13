@@ -1,0 +1,86 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Overlay — Tooltip, Menu, Modal" subtitle="Floating surfaces" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; padding: 28px 24px; background: var(--surface-base); }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-bottom: 30px; }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); width: 100%; margin-bottom: -2px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Tooltip, Menu, Modal, Button, IconButton, Icon } = window.OverModernDesignSystem_22ac94;
+    function Demo() {
+      const [open, setOpen] = React.useState(false);
+      return (
+        <div>
+          <div className="row">
+            <span className="lbl">Tooltip · hover the controls</span>
+            <Tooltip content="Redeploy service" side="top">
+              <IconButton icon="rocket" variant="solid" label="Deploy" />
+            </Tooltip>
+            <Tooltip content="Command palette" kbd="⌘K" side="bottom">
+              <Button variant="secondary" iconLeft={<Icon name="search" size={16} />}>Search</Button>
+            </Tooltip>
+            <Tooltip content="Copied to clipboard" side="right">
+              <IconButton icon="clipboard" variant="solid" label="Copy" />
+            </Tooltip>
+          </div>
+          <div className="row">
+            <span className="lbl">Menu · dropdown</span>
+            <Menu
+              trigger={<Button variant="secondary" iconRight={<Icon name="chevron-down" size={15} />}>Actions</Button>}
+              items={[
+                { type: "label", label: "Deployment" },
+                { label: "View logs", icon: "scroll-text", shortcut: "⌘L" },
+                { label: "Redeploy", icon: "rotate-cw" },
+                { type: "separator" },
+                { label: "Promote to prod", icon: "arrow-up", checked: true },
+                { type: "separator" },
+                { label: "Delete", icon: "trash-2", variant: "danger" },
+              ]}
+            />
+            <Menu
+              align="end"
+              trigger={<IconButton icon="ellipsis" variant="solid" label="More" />}
+              items={[
+                { label: "Rename", icon: "pencil" },
+                { label: "Duplicate", icon: "copy" },
+                { label: "Archive", icon: "archive" },
+              ]}
+            />
+          </div>
+          <div className="row">
+            <span className="lbl">Modal · dialog</span>
+            <Button variant="primary" iconLeft={<Icon name="trash-2" size={16} />} onClick={() => setOpen(true)}>
+              Open dialog
+            </Button>
+            <Modal
+              open={open}
+              onClose={() => setOpen(false)}
+              title="Delete deployment"
+              description="This permanently removes the build and its edge cache. This action cannot be undone."
+              footer={<>
+                <Button variant="ghost" onClick={() => setOpen(false)}>Cancel</Button>
+                <Button variant="danger" iconLeft={<Icon name="trash-2" size={16} />} onClick={() => setOpen(false)}>Delete</Button>
+              </>}
+            >
+              The service <b style={{ color: "var(--text-primary)" }}>edge-gateway</b> will stop serving traffic in all regions.
+            </Modal>
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

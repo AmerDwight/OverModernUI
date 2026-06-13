@@ -1,0 +1,127 @@
+/* Console UI kit — layout-only styles (consumes DS tokens via styles.css) */
+
+.cx-app {
+  display: grid;
+  grid-template-columns: 248px 1fr;
+  height: 100%;
+  min-height: 640px;
+  background: var(--surface-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  overflow: hidden;
+}
+
+/* ---------- Sidebar ---------- */
+.cx-side {
+  display: flex; flex-direction: column;
+  border-right: var(--hairline) solid var(--border-subtle);
+  background: var(--surface-sunken);
+  padding: 18px 14px;
+  gap: 6px;
+}
+.cx-side__brand { display: flex; align-items: center; gap: 10px; padding: 6px 8px 16px; }
+.cx-side__brand img { height: 26px; }
+.cx-ws {
+  display: flex; align-items: center; gap: 10px; padding: 9px 10px; margin-bottom: 10px;
+  background: var(--surface-glass); border: var(--hairline) solid var(--border-subtle);
+  border-radius: var(--radius-md); cursor: pointer;
+  transition: border-color var(--dur-base) var(--ease-out);
+}
+.cx-ws:hover { border-color: var(--border-default); }
+.cx-ws__name { font-size: var(--fs-body-sm); font-weight: var(--fw-semibold); }
+.cx-ws__plan { font-family: var(--font-mono); font-size: 10px; color: var(--text-tertiary); }
+.cx-navlabel { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+  text-transform: uppercase; color: var(--text-tertiary); padding: 14px 10px 6px; }
+.cx-nav { display: flex; align-items: center; gap: 11px; padding: 9px 10px; border-radius: var(--radius-md);
+  color: var(--text-tertiary); font-size: var(--fs-body-sm); font-weight: var(--fw-medium); cursor: pointer;
+  border: var(--hairline) solid transparent;
+  transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out); }
+.cx-nav:hover { color: var(--text-secondary); background: var(--surface-glass); }
+.cx-nav--active { color: var(--text-primary); background: var(--surface-glass-strong);
+  border-color: var(--border-subtle); box-shadow: var(--inset-highlight); }
+.cx-nav--active .om-icon { color: var(--accent); }
+.cx-nav__count { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--text-tertiary); }
+.cx-side__foot { margin-top: auto; display: flex; align-items: center; gap: 10px; padding: 10px;
+  border-top: var(--hairline) solid var(--border-subtle); }
+.cx-side__foot .nm { font-size: var(--fs-body-sm); font-weight: var(--fw-medium); }
+.cx-side__foot .em { font-size: var(--fs-caption); color: var(--text-tertiary); }
+
+/* ---------- Main ---------- */
+.cx-main { display: flex; flex-direction: column; min-width: 0; }
+.cx-top {
+  display: flex; align-items: center; gap: 16px;
+  padding: 14px 28px; border-bottom: var(--hairline) solid var(--border-subtle);
+  background: var(--surface-glass-strong); backdrop-filter: blur(var(--blur-md));
+}
+.cx-top__crumb { font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--text-tertiary); }
+.cx-top__crumb b { color: var(--text-secondary); font-weight: var(--fw-medium); }
+.cx-search { flex: 1; max-width: 420px; }
+.cx-top__right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+
+.cx-content { padding: 28px; overflow: auto; flex: 1; position: relative; }
+.cx-content::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(60% 40% at 80% -5%, rgb(61 130 255 / 0.08), transparent 60%); }
+
+.cx-pagehead { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 24px; position: relative; }
+.cx-pagehead h1 { font-family: var(--font-display); font-size: 30px; font-weight: 600; letter-spacing: var(--ls-tight); }
+.cx-pagehead p { color: var(--text-tertiary); font-size: var(--fs-body-sm); margin-top: 4px; }
+.cx-pagehead__actions { display: flex; gap: 10px; }
+
+/* stat grid */
+.cx-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+.cx-stat__label { display: flex; align-items: center; gap: 7px; color: var(--text-tertiary); font-size: var(--fs-caption); }
+.cx-stat__value { font-family: var(--font-display); font-size: 30px; font-weight: 600; margin-top: 10px; letter-spacing: var(--ls-tight); }
+.cx-stat__value small { font-size: 14px; color: var(--text-tertiary); font-weight: 500; }
+.cx-stat__delta { font-family: var(--font-mono); font-size: 11px; margin-top: 8px; display: inline-flex; align-items: center; gap: 4px; }
+.cx-up { color: var(--emerald-400); }
+.cx-down { color: var(--rose-400); }
+
+.cx-row2 { display: grid; grid-template-columns: 1.7fr 1fr; gap: 16px; margin-bottom: 16px; }
+.cx-panel-title { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+.cx-panel-title h3 { font-family: var(--font-display); font-size: 17px; font-weight: 600; }
+
+/* region rows */
+.cx-region { display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: var(--hairline) solid var(--border-subtle); }
+.cx-region:last-child { border-bottom: none; }
+.cx-region__name { font-size: var(--fs-body-sm); width: 96px; font-family: var(--font-mono); color: var(--text-secondary); }
+.cx-region__bar { flex: 1; height: 6px; border-radius: var(--radius-pill); background: var(--surface-sunken); overflow: hidden; }
+.cx-region__fill { height: 100%; border-radius: var(--radius-pill); background: linear-gradient(90deg, var(--azure-500), var(--cyan-400)); }
+.cx-region__val { font-family: var(--font-mono); font-size: 11px; color: var(--text-tertiary); width: 44px; text-align: right; }
+
+/* deployment list */
+.cx-deploy { display: flex; align-items: center; gap: 14px; padding: 13px 0; border-bottom: var(--hairline) solid var(--border-subtle); }
+.cx-deploy:last-child { border-bottom: none; }
+.cx-deploy__hash { font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--text-secondary); }
+.cx-deploy__msg { font-size: var(--fs-body-sm); }
+.cx-deploy__meta { font-size: var(--fs-caption); color: var(--text-tertiary); margin-top: 2px; }
+.cx-deploy__right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
+.cx-deploy__time { font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--text-tertiary); }
+
+/* ---------- Login ---------- */
+.cx-login { position: relative; height: 100%; min-height: 640px; display: grid; place-items: center;
+  background: var(--surface-base); overflow: hidden; }
+.cx-login__grid { position: absolute; inset: 0;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px; mask-image: radial-gradient(80% 70% at 50% 40%, #000, transparent 80%); }
+.cx-login__aura { position: absolute; inset: 0;
+  background: radial-gradient(45% 50% at 50% 0%, rgb(61 130 255 / 0.22), transparent 65%),
+              radial-gradient(40% 45% at 70% 110%, rgb(31 198 208 / 0.14), transparent 60%); }
+.cx-login__card { position: relative; width: 380px; max-width: calc(100% - 40px);
+  background: var(--surface-glass-strong); backdrop-filter: blur(var(--blur-lg));
+  border: var(--hairline) solid var(--border-default); border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl), var(--inset-highlight-strong); padding: 34px 32px; }
+.cx-login__brand { display: flex; align-items: center; gap: 11px; margin-bottom: 22px; }
+.cx-login__brand img { height: 30px; }
+.cx-login__card h2 { font-family: var(--font-display); font-size: 23px; font-weight: 600; }
+.cx-login__card .sub { color: var(--text-tertiary); font-size: var(--fs-body-sm); margin: 6px 0 24px; }
+.cx-login__fields { display: flex; flex-direction: column; gap: 15px; }
+.cx-login__foot { margin-top: 18px; text-align: center; font-size: var(--fs-caption); color: var(--text-tertiary); }
+.cx-divider { display: flex; align-items: center; gap: 12px; margin: 20px 0; color: var(--text-disabled);
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
+.cx-divider::before, .cx-divider::after { content: ""; flex: 1; height: 1px; background: var(--border-subtle); }
+
+/* chart */
+.cx-chart { position: relative; height: 188px; }
+.cx-chart svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.cx-chart__axis { position: absolute; left: 0; right: 0; display: flex; justify-content: space-between;
+  bottom: -22px; font-family: var(--font-mono); font-size: 10px; color: var(--text-disabled); }

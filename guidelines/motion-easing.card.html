@@ -1,0 +1,27 @@
+<!-- @dsCard group="Spacing" viewport="700x150" name="Motion Easing" subtitle="Signature ease-out, in-out, spring" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); display:flex; flex-direction:column; gap: 16px; justify-content:center; }
+  .track { position: relative; height: 22px; background: var(--surface-sunken);
+           border:1px solid var(--border-subtle); border-radius: var(--radius-pill); }
+  .dot { position:absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%;
+         background: var(--azure-500); box-shadow: var(--glow-accent); }
+  .label { font-family: var(--font-mono); font-size: 11px; color: var(--text-tertiary); width: 130px; }
+  .row { display:flex; align-items:center; gap: 16px; }
+  .row .track { flex: 1; }
+  @keyframes slide { 0%,12% { left: 3px; } 50%,62% { left: calc(100% - 19px); } 100% { left: 3px; } }
+  .e1 { animation: slide 2.6s var(--ease-out) infinite; }
+  .e2 { animation: slide 2.6s var(--ease-in-out) infinite; }
+  .e3 { animation: slide 2.6s var(--ease-spring) infinite; }
+</style>
+</head>
+<body>
+  <div class="row"><span class="label">ease-out</span><div class="track"><div class="dot e1"></div></div></div>
+  <div class="row"><span class="label">ease-in-out</span><div class="track"><div class="dot e2"></div></div></div>
+  <div class="row"><span class="label">spring</span><div class="track"><div class="dot e3"></div></div></div>
+</body>
+</html>

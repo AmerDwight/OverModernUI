@@ -1,0 +1,59 @@
+<!-- @dsCard group="Components" viewport="760x460" name="Data — Table, Pagination" subtitle="Tabular data & paging" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 12px; }
+  .stack { display: flex; flex-direction: column; gap: 26px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Table, Pagination, Badge, Avatar } = window.OverModernDesignSystem_22ac94;
+    function Demo() {
+      const [page, setPage] = React.useState(3);
+      const columns = [
+        { key: "service", header: "Service" },
+        { key: "owner", header: "Owner", render: (v) => (
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+            <Avatar name={v} size="sm" />{v}
+          </span>
+        ) },
+        { key: "region", header: "Region" },
+        { key: "rps", header: "Req/s", align: "right", numeric: true },
+        { key: "status", header: "Status", align: "right", render: (v) => (
+          <Badge variant={v === "up" ? "success" : v === "degraded" ? "warning" : "danger"} dot>{v}</Badge>
+        ) },
+      ];
+      const rows = [
+        { service: "edge-gateway", owner: "Ada Mercer", region: "us-east-1", rps: "12,408", status: "up" },
+        { service: "billing-api", owner: "Lena Cho", region: "eu-west-2", rps: "3,920", status: "degraded" },
+        { service: "auth-service", owner: "Marco Vidal", region: "ap-south-1", rps: "8,114", status: "up" },
+        { service: "media-encoder", owner: "Ada Mercer", region: "sa-east-1", rps: "642", status: "down" },
+      ];
+      return (
+        <div className="stack">
+          <div>
+            <div className="lbl">Table · custom cells</div>
+            <Table columns={columns} rows={rows} rowKey="service" />
+          </div>
+          <div>
+            <div className="lbl">Pagination</div>
+            <Pagination page={page} total={24} onChange={setPage} />
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

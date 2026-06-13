@@ -1,0 +1,154 @@
+/* ============================================================
+   OverModern — Color System
+   Obsidian glass: cool blue-black neutrals, electric azure accent,
+   iridescent cyan highlight. Dark-first.
+   ============================================================ */
+
+:root {
+  /* ---- Obsidian neutral ramp (cool, blue-shifted) ---- */
+  --ob-1000: #030407;
+  --ob-950:  #06070B;
+  --ob-900:  #0B0D12;
+  --ob-850:  #11131A;
+  --ob-800:  #171A22;
+  --ob-750:  #1E222C;
+  --ob-700:  #262B37;
+  --ob-650:  #2F3543;
+  --ob-600:  #3A4150;
+  --ob-500:  #4B546A;
+  --ob-400:  #626B80;
+  --ob-300:  #8089A0;
+  --ob-200:  #B4BCCD;
+  --ob-150:  #CDD3DF;
+  --ob-100:  #E2E6EE;
+  --ob-050:  #F1F3F8;
+  --ob-000:  #FFFFFF;
+
+  /* ---- Electric azure (primary accent) ---- */
+  --azure-300: #9CC0FF;
+  --azure-400: #6BA5FF;
+  --azure-500: #3D82FF;  /* core brand accent */
+  --azure-600: #1E63F0;
+  --azure-700: #1349C4;
+
+  /* ---- Iridescent cyan (highlight / secondary glow) ---- */
+  --cyan-300: #8BF0F3;
+  --cyan-400: #44DEE6;
+  --cyan-500: #1FC6D0;
+
+  /* ---- Semantic hues ---- */
+  --emerald-400: #41E0A3;
+  --emerald-500: #1FC98A;
+  --amber-400:   #F7C04A;
+  --amber-500:   #EFA21F;
+  --rose-400:    #FF6B7A;
+  --rose-500:    #F5455A;
+
+  /* ---- RGB channels for alpha composition ---- */
+  --azure-500-rgb: 61 130 255;  /* @kind other */
+  --cyan-400-rgb:  68 222 230;  /* @kind other */
+  --white-rgb:     255 255 255; /* @kind other */
+  --black-rgb:     3 4 7;       /* @kind other */
+
+  /* ============================================================
+     Semantic aliases (dark theme — default)
+     ============================================================ */
+
+  /* Surfaces — layered depth */
+  --surface-base:    var(--ob-1000);   /* page background */
+  --surface-sunken:  var(--ob-950);    /* wells, inset areas */
+  --surface-raised:  var(--ob-900);    /* default card */
+  --surface-overlay: var(--ob-850);    /* popovers, menus */
+  --surface-glass:   rgb(var(--white-rgb) / 0.04);  /* glass panel fill */
+  --surface-glass-strong: rgb(var(--white-rgb) / 0.07);
+
+  /* Text */
+  --text-primary:   var(--ob-050);
+  --text-secondary: var(--ob-200);
+  --text-tertiary:  var(--ob-300);
+  --text-disabled:  var(--ob-400);
+  --text-inverse:   var(--ob-1000);
+  --text-accent:    var(--azure-400);
+
+  /* Borders & hairlines */
+  --border-subtle:  rgb(var(--white-rgb) / 0.06);
+  --border-default: rgb(var(--white-rgb) / 0.10);
+  --border-strong:  rgb(var(--white-rgb) / 0.16);
+  --border-accent:  rgb(var(--azure-500-rgb) / 0.55);
+
+  /* Accent roles */
+  --accent:         var(--azure-500);
+  --accent-hover:   var(--azure-400);
+  --accent-press:   var(--azure-600);
+  --accent-soft:    rgb(var(--azure-500-rgb) / 0.14);
+  --accent-glow:    rgb(var(--azure-500-rgb) / 0.45);
+  --on-accent:      #FFFFFF;
+
+  /* Feedback */
+  --success: var(--emerald-500);
+  --warning: var(--amber-500);
+  --danger:  var(--rose-500);
+  --info:    var(--azure-500);
+
+  --success-soft: rgb(31 201 138 / 0.14);
+  --warning-soft: rgb(239 162 31 / 0.14);
+  --danger-soft:  rgb(245 69 90 / 0.14);
+
+  /* Focus ring */
+  --focus-ring: rgb(var(--azure-500-rgb) / 0.65);
+}
+
+/* ============================================================
+   LIGHT THEME — opt-in via [data-theme="light"] on <html> or any wrapper.
+   Same "premium" intent: cool off-white surfaces, hairline ink borders,
+   soft cool shadows, the identical azure accent. Only semantic aliases
+   are remapped — the base ramps and accents are unchanged.
+   ============================================================ */
+
+[data-theme="light"] {
+  /* Surfaces — cool paper, white cards */
+  --surface-base:    #F4F6FA;
+  --surface-sunken:  #EBEEF4;
+  --surface-raised:  #FFFFFF;
+  --surface-overlay: #FFFFFF;
+  --surface-glass:        rgb(255 255 255 / 0.60);
+  --surface-glass-strong: rgb(255 255 255 / 0.80);
+
+  /* Text — obsidian ink */
+  --text-primary:   var(--ob-900);
+  --text-secondary: var(--ob-600);
+  --text-tertiary:  var(--ob-500);
+  --text-disabled:  var(--ob-400);
+  --text-inverse:   #FFFFFF;
+  --text-accent:    var(--azure-600);
+
+  /* Borders — black alpha hairlines */
+  --border-subtle:  rgb(var(--black-rgb) / 0.07);
+  --border-default: rgb(var(--black-rgb) / 0.12);
+  --border-strong:  rgb(var(--black-rgb) / 0.20);
+  --border-accent:  rgb(var(--azure-500-rgb) / 0.55);
+
+  /* Accent — slightly deeper core for AA contrast on light */
+  --accent:         var(--azure-600);
+  --accent-hover:   var(--azure-500);
+  --accent-press:   var(--azure-700);
+  --accent-soft:    rgb(var(--azure-500-rgb) / 0.12);
+  --accent-glow:    rgb(var(--azure-500-rgb) / 0.30);
+  --on-accent:      #FFFFFF;
+
+  /* Feedback soft fills lighten */
+  --success-soft: rgb(31 201 138 / 0.12);
+  --warning-soft: rgb(239 162 31 / 0.16);
+  --danger-soft:  rgb(245 69 90 / 0.10);
+
+  /* ---- Effects remap (cool, soft shadows; ink grid) ---- */
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow-md: 0 4px 12px rgb(15 23 42 / 0.08), 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow-lg: 0 16px 40px rgb(15 23 42 / 0.12), 0 4px 10px rgb(15 23 42 / 0.06);
+  --shadow-xl: 0 32px 80px rgb(15 23 42 / 0.16), 0 8px 20px rgb(15 23 42 / 0.08);
+  --inset-highlight:        inset 0 1px 0 0 rgb(255 255 255 / 0.7);
+  --inset-highlight-strong: inset 0 1px 0 0 rgb(255 255 255 / 0.9);
+  --glow-accent:        0 0 0 1px rgb(var(--azure-500-rgb) / 0.35), 0 8px 24px rgb(var(--azure-500-rgb) / 0.22);
+  --glow-accent-strong: 0 0 0 1px rgb(var(--azure-500-rgb) / 0.50), 0 10px 32px rgb(var(--azure-500-rgb) / 0.32);
+  --grid-line: rgb(var(--black-rgb) / 0.05);
+}

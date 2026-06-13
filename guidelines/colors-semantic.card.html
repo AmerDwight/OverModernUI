@@ -1,0 +1,37 @@
+<!-- @dsCard group="Colors" viewport="700x170" name="Semantic Feedback" subtitle="Success, warning, danger, info — solid + soft" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface-base); }
+  .row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .cell { border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); }
+  .solid { height: 56px; display:flex; align-items:center; padding: 0 14px; color:#fff;
+           font-family: var(--font-body); font-weight: 600; font-size: 13px; }
+  .soft { height: 40px; display:flex; align-items:center; padding: 0 14px;
+          font-family: var(--font-mono); font-size: 11px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="cell">
+      <div class="solid" style="background:var(--success)">Success</div>
+      <div class="soft" style="background:var(--success-soft); color:var(--emerald-400)">--success</div>
+    </div>
+    <div class="cell">
+      <div class="solid" style="background:var(--warning); color:#1a1205">Warning</div>
+      <div class="soft" style="background:var(--warning-soft); color:var(--amber-400)">--warning</div>
+    </div>
+    <div class="cell">
+      <div class="solid" style="background:var(--danger)">Danger</div>
+      <div class="soft" style="background:var(--danger-soft); color:var(--rose-400)">--danger</div>
+    </div>
+    <div class="cell">
+      <div class="solid" style="background:var(--info)">Info</div>
+      <div class="soft" style="background:var(--accent-soft); color:var(--azure-400)">--info</div>
+    </div>
+  </div>
+</body>
+</html>

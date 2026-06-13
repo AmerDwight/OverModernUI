@@ -1,0 +1,62 @@
+/* ============================================================
+   OverModern — Effects: radii, borders, blur, shadows, motion
+   Signature: hairline borders + layered glass depth + accent glow.
+   ============================================================ */
+
+:root {
+  /* Corner radii */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   22px;
+  --radius-2xl:  32px;
+  --radius-pill: 999px;
+
+  /* Hairline border width */
+  --hairline: 1px;  /* @kind spacing */
+
+  /* Backdrop blur (glass) */
+  --blur-sm: 8px;   /* @kind other */
+  --blur-md: 16px;  /* @kind other */
+  --blur-lg: 28px;  /* @kind other */
+
+  /* ---- Shadow system ---- */
+  /* Ambient depth — cool, soft, deep (dark UI shadows must be near-black) */
+  --shadow-sm:
+    0 1px 2px rgb(3 4 7 / 0.40);
+  --shadow-md:
+    0 4px 12px rgb(3 4 7 / 0.45),
+    0 1px 2px rgb(3 4 7 / 0.40);
+  --shadow-lg:
+    0 16px 40px rgb(3 4 7 / 0.55),
+    0 4px 10px rgb(3 4 7 / 0.40);
+  --shadow-xl:
+    0 32px 80px rgb(3 4 7 / 0.65),
+    0 8px 20px rgb(3 4 7 / 0.45);
+
+  /* Inner top-edge highlight — the "glass" tell (lighter rim on top) */
+  --inset-highlight: inset 0 1px 0 0 rgb(255 255 255 / 0.08);
+  --inset-highlight-strong: inset 0 1px 0 0 rgb(255 255 255 / 0.14);
+
+  /* Accent glow — for focus, active, hero elements */
+  --glow-accent: 0 0 0 1px rgb(61 130 255 / 0.40), 0 8px 28px rgb(61 130 255 / 0.30);
+  --glow-accent-strong: 0 0 0 1px rgb(61 130 255 / 0.55), 0 10px 40px rgb(61 130 255 / 0.45);
+
+  /* Composite elevation (shadow + glass highlight) */
+  --elevation-card: var(--shadow-lg), var(--inset-highlight);
+  --elevation-overlay: var(--shadow-xl), var(--inset-highlight-strong);
+
+  /* ---- Motion ---- */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);     /* @kind other */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);    /* @kind other */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+
+  --dur-fast:   120ms;  /* @kind other */
+  --dur-base:   200ms;  /* @kind other */
+  --dur-slow:   360ms;  /* @kind other */
+  --dur-slower: 600ms;  /* @kind other */
+
+  /* ---- Texture ---- */
+  --grid-line: rgb(255 255 255 / 0.035);  /* @kind color */
+}

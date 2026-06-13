@@ -1,0 +1,72 @@
+<!-- @dsCard group="Components" viewport="700x440" name="Core — Buttons, Badges, Avatars, Cards" subtitle="Actions & primitives" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); width: 100%; margin-bottom: -4px; }
+  #root { display: block; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Button, IconButton, Badge, Avatar, Card, Icon } = window.OverModernDesignSystem_22ac94;
+    function Demo() {
+      return (
+        <div>
+          <div className="row">
+            <span className="lbl">Button · variants</span>
+            <Button variant="primary" iconLeft={<Icon name="zap" size={16} />}>Deploy</Button>
+            <Button variant="secondary" iconLeft={<Icon name="plus" size={16} />}>New project</Button>
+            <Button variant="ghost">Cancel</Button>
+            <Button variant="danger" iconLeft={<Icon name="trash-2" size={16} />}>Delete</Button>
+          </div>
+          <div className="row">
+            <span className="lbl">Sizes · disabled · icon buttons</span>
+            <Button size="sm">Small</Button>
+            <Button size="md">Medium</Button>
+            <Button size="lg">Large</Button>
+            <Button disabled>Disabled</Button>
+            <IconButton icon="settings" label="Settings" />
+            <IconButton icon="bell" variant="solid" label="Alerts" />
+            <IconButton icon="arrow-right" variant="accent" label="Go" />
+          </div>
+          <div className="row">
+            <span className="lbl">Badges</span>
+            <Badge variant="success" dot>Live</Badge>
+            <Badge variant="accent">Beta</Badge>
+            <Badge variant="warning">Degraded</Badge>
+            <Badge variant="danger">Down</Badge>
+            <Badge variant="neutral">v4.2</Badge>
+          </div>
+          <div className="row">
+            <span className="lbl">Avatars</span>
+            <Avatar name="Ada Lovelace" status="online" />
+            <Avatar name="Grace Hopper" size="lg" status="busy" />
+            <Avatar name="OM" accent />
+            <Avatar name="Alan Turing" size="sm" status="away" />
+          </div>
+          <div className="row" style={{ alignItems: "stretch" }}>
+            <Card eyebrow="// Throughput" style={{ flex: 1 }}>
+              <div style={{ fontFamily: "var(--font-display)", fontSize: 28, fontWeight: 600 }}>1.2M<span style={{ fontSize: 15, color: "var(--text-tertiary)" }}> req/s</span></div>
+            </Card>
+            <Card variant="glass" interactive eyebrow="// Latency" style={{ flex: 1 }}>
+              <div style={{ fontFamily: "var(--font-display)", fontSize: 28, fontWeight: 600 }}>12.4<span style={{ fontSize: 15, color: "var(--text-tertiary)" }}> ms p99</span></div>
+            </Card>
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

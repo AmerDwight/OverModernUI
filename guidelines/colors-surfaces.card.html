@@ -1,0 +1,27 @@
+<!-- @dsCard group="Colors" viewport="700x190" name="Surfaces & Elevation" subtitle="Layered depth from base to glass overlay" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); }
+  .stack { position: relative; height: 142px; }
+  .layer { position:absolute; border-radius: var(--radius-lg); border: 1px solid var(--border-default);
+           padding: 12px 16px; font-family: var(--font-mono); font-size: 11px; color: var(--text-secondary); }
+  .l1 { inset: 0; background: var(--surface-sunken); }
+  .l2 { inset: 18px 18px 18px 24px; background: var(--surface-raised); box-shadow: var(--shadow-md); }
+  .l3 { left: 60px; right: 60px; top: 38px; bottom: 38px;
+        background: var(--surface-glass); backdrop-filter: blur(var(--blur-md));
+        box-shadow: var(--shadow-lg), var(--inset-highlight); display:flex; align-items:center; }
+  .tag { position:absolute; top:10px; left:14px; }
+</style>
+</head>
+<body>
+  <div class="stack">
+    <div class="layer l1"><span class="tag">surface-sunken</span></div>
+    <div class="layer l2"><span class="tag">surface-raised</span></div>
+    <div class="layer l3">surface-glass · blur 16 · inset highlight</div>
+  </div>
+</body>
+</html>

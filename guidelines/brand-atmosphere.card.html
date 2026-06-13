@@ -1,0 +1,36 @@
+<!-- @dsCard group="Brand" viewport="700x190" name="Atmosphere & Texture" subtitle="Grid texture, accent aura, glass panel" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 0; background: var(--surface-base); }
+  .scene { position: relative; height: 190px; overflow: hidden; }
+  .grid { position:absolute; inset:0; background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 40px 40px; }
+  .aura { position:absolute; inset:0; background:
+    radial-gradient(50% 80% at 30% -10%, rgb(61 130 255 / 0.30), transparent 60%),
+    radial-gradient(40% 70% at 90% 120%, rgb(31 198 208 / 0.20), transparent 60%); }
+  .glass { position:absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    width: 360px; padding: 22px 26px; background: var(--surface-glass-strong);
+    border:1px solid var(--border-default); border-radius: var(--radius-lg);
+    backdrop-filter: blur(var(--blur-lg)); box-shadow: var(--shadow-xl), var(--inset-highlight-strong); }
+  .glass .eyebrow { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+    text-transform: uppercase; color: var(--text-tertiary); }
+  .glass h3 { font-family: var(--font-display); font-size: 22px; margin: 8px 0 0; color: var(--text-primary); }
+</style>
+</head>
+<body>
+  <div class="scene">
+    <div class="grid"></div>
+    <div class="aura"></div>
+    <div class="glass">
+      <div class="eyebrow">// Atmosphere</div>
+      <h3>Depth through light, not weight.</h3>
+    </div>
+  </div>
+</body>
+</html>
