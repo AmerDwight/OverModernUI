@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":3,"namespace":"OverModernDesignSystem_22ac94","components":[{"name":"Avatar","sourcePath":"components/core/Avatar.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Card","sourcePath":"components/core/Card.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"Pagination","sourcePath":"components/data/Pagination.jsx"},{"name":"Table","sourcePath":"components/data/Table.jsx"},{"name":"Progress","sourcePath":"components/feedback/Progress.jsx"},{"name":"Toast","sourcePath":"components/feedback/Toast.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Tabs","sourcePath":"components/navigation/Tabs.jsx"},{"name":"Menu","sourcePath":"components/overlay/Menu.jsx"},{"name":"Modal","sourcePath":"components/overlay/Modal.jsx"},{"name":"Tooltip","sourcePath":"components/overlay/Tooltip.jsx"}],"sourceHashes":{"components/core/Avatar.jsx":"f633f8746ea4","components/core/Badge.jsx":"bcfd58112c05","components/core/Button.jsx":"e2fcc1ac0b26","components/core/Card.jsx":"2bb7401bded5","components/core/Icon.jsx":"0ecc2b7ce859","components/core/IconButton.jsx":"fdacb7b550b4","components/data/Pagination.jsx":"6cc67a6ad3d8","components/data/Table.jsx":"22b8ba2daaf3","components/feedback/Progress.jsx":"c6ebbfc70bc0","components/feedback/Toast.jsx":"3ebddd8c08a4","components/forms/Checkbox.jsx":"1b4662c22520","components/forms/Input.jsx":"180884c24bec","components/forms/Select.jsx":"ab6871282c97","components/forms/Switch.jsx":"b491a1f17e65","components/navigation/Tabs.jsx":"c43d0052d464","components/overlay/Menu.jsx":"47c9e0e64246","components/overlay/Modal.jsx":"76340394021c","components/overlay/Tooltip.jsx":"406f3c90c06d","ui_kits/console/App.jsx":"87db040883f4","ui_kits/console/DeploymentsScreen.jsx":"7e15e1f10703","ui_kits/console/LoginScreen.jsx":"e54dd9d78515","ui_kits/console/OverviewScreen.jsx":"936aaccd6842","ui_kits/console/Sidebar.jsx":"0b612c8b9be9","ui_kits/console/Topbar.jsx":"4347d1cd9cd9"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":3,"namespace":"OverModernDesignSystem_22ac94","components":[{"name":"Avatar","sourcePath":"components/core/Avatar.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Card","sourcePath":"components/core/Card.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"Skeleton","sourcePath":"components/core/Skeleton.jsx"},{"name":"Spinner","sourcePath":"components/core/Spinner.jsx"},{"name":"Tag","sourcePath":"components/core/Tag.jsx"},{"name":"Pagination","sourcePath":"components/data/Pagination.jsx"},{"name":"StatCard","sourcePath":"components/data/StatCard.jsx"},{"name":"Table","sourcePath":"components/data/Table.jsx"},{"name":"Timeline","sourcePath":"components/data/Timeline.jsx"},{"name":"Alert","sourcePath":"components/feedback/Alert.jsx"},{"name":"EmptyState","sourcePath":"components/feedback/EmptyState.jsx"},{"name":"Progress","sourcePath":"components/feedback/Progress.jsx"},{"name":"Toast","sourcePath":"components/feedback/Toast.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Slider","sourcePath":"components/forms/Slider.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Textarea","sourcePath":"components/forms/Textarea.jsx"},{"name":"Breadcrumb","sourcePath":"components/navigation/Breadcrumb.jsx"},{"name":"Tabs","sourcePath":"components/navigation/Tabs.jsx"},{"name":"CommandPalette","sourcePath":"components/overlay/CommandPalette.jsx"},{"name":"Drawer","sourcePath":"components/overlay/Drawer.jsx"},{"name":"Menu","sourcePath":"components/overlay/Menu.jsx"},{"name":"Modal","sourcePath":"components/overlay/Modal.jsx"},{"name":"Popover","sourcePath":"components/overlay/Popover.jsx"},{"name":"Tooltip","sourcePath":"components/overlay/Tooltip.jsx"}],"sourceHashes":{"components/core/Avatar.jsx":"f633f8746ea4","components/core/Badge.jsx":"bcfd58112c05","components/core/Button.jsx":"e2fcc1ac0b26","components/core/Card.jsx":"2bb7401bded5","components/core/Icon.jsx":"0ecc2b7ce859","components/core/IconButton.jsx":"fdacb7b550b4","components/core/Skeleton.jsx":"e412a8b1dfa2","components/core/Spinner.jsx":"e94a21371d03","components/core/Tag.jsx":"e9dd54cce1cf","components/data/Pagination.jsx":"6cc67a6ad3d8","components/data/StatCard.jsx":"91fde2dc6f6d","components/data/Table.jsx":"cdb1ba44220f","components/data/Timeline.jsx":"e335a460dd25","components/feedback/Alert.jsx":"f2fb3e451df5","components/feedback/EmptyState.jsx":"d0e8f6c92d72","components/feedback/Progress.jsx":"c6ebbfc70bc0","components/feedback/Toast.jsx":"3ebddd8c08a4","components/forms/Checkbox.jsx":"1b4662c22520","components/forms/Input.jsx":"180884c24bec","components/forms/Select.jsx":"ab6871282c97","components/forms/Slider.jsx":"8c51fa3f1b93","components/forms/Switch.jsx":"b491a1f17e65","components/forms/Textarea.jsx":"f1cc5145ef78","components/navigation/Breadcrumb.jsx":"c0249accbe26","components/navigation/Tabs.jsx":"c43d0052d464","components/overlay/CommandPalette.jsx":"d0ae46373901","components/overlay/Drawer.jsx":"6eaf51e3750b","components/overlay/Menu.jsx":"47c9e0e64246","components/overlay/Modal.jsx":"76340394021c","components/overlay/Popover.jsx":"72ca51a0e3e5","components/overlay/Tooltip.jsx":"406f3c90c06d","ui_kits/console/App.jsx":"87db040883f4","ui_kits/console/DeploymentsScreen.jsx":"7e15e1f10703","ui_kits/console/LoginScreen.jsx":"e54dd9d78515","ui_kits/console/OverviewScreen.jsx":"936aaccd6842","ui_kits/console/Sidebar.jsx":"0b612c8b9be9","ui_kits/console/Topbar.jsx":"4347d1cd9cd9"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -383,6 +383,229 @@ function IconButton({
 Object.assign(__ds_scope, { IconButton });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/IconButton.jsx", error: String((e && e.message) || e) }); }
 
+// components/core/Skeleton.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+@keyframes om-skel-shimmer { 100% { transform: translateX(100%); } }
+.om-skel {
+  position: relative; overflow: hidden; display: block;
+  background: var(--surface-glass-strong);
+  border-radius: var(--radius-sm);
+}
+.om-skel::after {
+  content: ""; position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.06), transparent);
+  animation: om-skel-shimmer 1.4s var(--ease-in-out, ease-in-out) infinite;
+}
+.om-skel--text { height: 0.72em; border-radius: var(--radius-xs); margin: 0.18em 0; }
+.om-skel--circle { border-radius: 50%; }
+@media (prefers-reduced-motion: reduce) {
+  .om-skel::after { animation: none; }
+}
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-skel-css")) {
+  const s = document.createElement("style");
+  s.id = "om-skel-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Skeleton({
+  variant = "rect",
+  width,
+  height,
+  lines = 1,
+  radius,
+  style,
+  ...rest
+}) {
+  const base = {
+    ...style
+  };
+  if (width != null) base.width = typeof width === "number" ? width + "px" : width;
+  if (height != null) base.height = typeof height === "number" ? height + "px" : height;
+  if (radius != null) base.borderRadius = typeof radius === "number" ? radius + "px" : radius;
+  if (variant === "text" && lines > 1) {
+    return /*#__PURE__*/React.createElement("span", _extends({
+      style: {
+        display: "block"
+      }
+    }, rest), Array.from({
+      length: lines
+    }).map((_, i) => /*#__PURE__*/React.createElement("span", {
+      key: i,
+      className: "om-skel om-skel--text",
+      style: {
+        ...base,
+        width: i === lines - 1 ? "62%" : base.width || "100%"
+      }
+    })));
+  }
+  if (variant === "circle") {
+    const d = base.width || base.height || "40px";
+    return /*#__PURE__*/React.createElement("span", _extends({
+      className: "om-skel om-skel--circle",
+      style: {
+        ...base,
+        width: d,
+        height: d
+      }
+    }, rest));
+  }
+  return /*#__PURE__*/React.createElement("span", _extends({
+    className: `om-skel ${variant === "text" ? "om-skel--text" : ""}`,
+    style: base
+  }, rest));
+}
+Object.assign(__ds_scope, { Skeleton });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Skeleton.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/Spinner.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+@keyframes om-spin { to { transform: rotate(360deg); } }
+.om-spinner { display: inline-block; vertical-align: middle; color: var(--_c, var(--accent)); }
+.om-spinner svg { display: block; animation: om-spin var(--_dur, 0.7s) linear infinite; }
+.om-spinner__track { opacity: 0.18; }
+.om-spinner__head { stroke-linecap: round; }
+.om-spinner-block { display: inline-flex; flex-direction: column; align-items: center; gap: 11px; }
+.om-spinner-block__label {
+  font-family: var(--font-mono); font-size: var(--fs-caption); letter-spacing: var(--ls-wide);
+  text-transform: uppercase; color: var(--text-tertiary);
+}
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-spinner-css")) {
+  const s = document.createElement("style");
+  s.id = "om-spinner-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+const SIZES = {
+  sm: 16,
+  md: 22,
+  lg: 34
+};
+function Spinner({
+  size = "md",
+  color,
+  label,
+  speed,
+  ...rest
+}) {
+  const px = typeof size === "number" ? size : SIZES[size] || SIZES.md;
+  const sw = Math.max(2, Math.round(px / 10));
+  const r = (px - sw) / 2;
+  const c = px / 2;
+  const circ = 2 * Math.PI * r;
+  const style = {};
+  if (color) style["--_c"] = color;
+  if (speed) style["--_dur"] = speed;
+  const svg = /*#__PURE__*/React.createElement("span", _extends({
+    className: "om-spinner",
+    style: style,
+    role: "status",
+    "aria-label": label || "Loading"
+  }, rest), /*#__PURE__*/React.createElement("svg", {
+    width: px,
+    height: px,
+    viewBox: `0 0 ${px} ${px}`,
+    fill: "none"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "om-spinner__track",
+    cx: c,
+    cy: c,
+    r: r,
+    stroke: "currentColor",
+    strokeWidth: sw
+  }), /*#__PURE__*/React.createElement("circle", {
+    className: "om-spinner__head",
+    cx: c,
+    cy: c,
+    r: r,
+    stroke: "currentColor",
+    strokeWidth: sw,
+    strokeDasharray: circ,
+    strokeDashoffset: circ * 0.72
+  })));
+  if (label) {
+    return /*#__PURE__*/React.createElement("span", {
+      className: "om-spinner-block"
+    }, svg, /*#__PURE__*/React.createElement("span", {
+      className: "om-spinner-block__label"
+    }, label));
+  }
+  return svg;
+}
+Object.assign(__ds_scope, { Spinner });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Spinner.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/Tag.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-body); font-size: var(--fs-caption); font-weight: var(--fw-medium);
+  line-height: 1; white-space: nowrap; color: var(--_fg, var(--text-secondary));
+  background: var(--_bg, var(--surface-glass-strong));
+  border: var(--hairline) solid var(--_bd, var(--border-default));
+  padding: 5px 9px; border-radius: var(--radius-sm);
+  transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.om-tag--md { font-size: var(--fs-body-sm); padding: 6px 11px; gap: 7px; }
+.om-tag__dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; flex: none; }
+.om-tag__close {
+  display: grid; place-items: center; width: 15px; height: 15px; margin: 0 -3px 0 1px; flex: none;
+  border: none; background: transparent; cursor: pointer; color: inherit; opacity: 0.55; border-radius: var(--radius-xs);
+  transition: opacity var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.om-tag__close:hover { opacity: 1; background: rgb(255 255 255 / 0.10); }
+.om-tag .om-icon { flex: none; }
+
+.om-tag--accent  { --_bg: var(--accent-soft);  --_bd: rgb(61 130 255 / 0.28); --_fg: var(--azure-300); }
+.om-tag--success { --_bg: var(--success-soft); --_bd: rgb(31 201 138 / 0.28); --_fg: var(--emerald-300, var(--success)); }
+.om-tag--warning { --_bg: var(--warning-soft); --_bd: rgb(239 162 31 / 0.30); --_fg: var(--amber-300, var(--warning)); }
+.om-tag--danger  { --_bg: var(--danger-soft);  --_bd: rgb(245 69 90 / 0.30);  --_fg: var(--rose-300, var(--rose-400)); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-tag-css")) {
+  const s = document.createElement("style");
+  s.id = "om-tag-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Tag({
+  children,
+  variant = "neutral",
+  size = "sm",
+  icon,
+  dot = false,
+  onClose,
+  ...rest
+}) {
+  const variantCls = variant !== "neutral" ? ` om-tag--${variant}` : "";
+  return /*#__PURE__*/React.createElement("span", _extends({
+    className: `om-tag om-tag--${size}${variantCls}`
+  }, rest), dot && /*#__PURE__*/React.createElement("span", {
+    className: "om-tag__dot"
+  }), icon && /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: icon,
+    size: size === "md" ? 14 : 12
+  }), /*#__PURE__*/React.createElement("span", null, children), onClose && /*#__PURE__*/React.createElement("button", {
+    className: "om-tag__close",
+    "aria-label": "Remove",
+    onClick: e => {
+      e.stopPropagation();
+      onClose(e);
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "x",
+    size: 12
+  })));
+}
+Object.assign(__ds_scope, { Tag });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Tag.jsx", error: String((e && e.message) || e) }); }
+
 // components/data/Pagination.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -481,6 +704,138 @@ function Pagination({
 Object.assign(__ds_scope, { Pagination });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/Pagination.jsx", error: String((e && e.message) || e) }); }
 
+// components/data/StatCard.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-stat {
+  position: relative; display: flex; flex-direction: column; gap: 10px;
+  padding: 18px 20px; border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  border: var(--hairline) solid var(--border-subtle);
+  box-shadow: var(--inset-highlight);
+  font-family: var(--font-body); overflow: hidden;
+}
+.om-stat__top { display: flex; align-items: center; gap: 8px; }
+.om-stat__icon {
+  display: grid; place-items: center; width: 30px; height: 30px; border-radius: var(--radius-sm);
+  background: var(--surface-glass-strong); border: var(--hairline) solid var(--border-default);
+  color: var(--accent); flex: none;
+}
+.om-stat__label {
+  font-family: var(--font-mono); font-size: var(--fs-micro); letter-spacing: var(--ls-overline);
+  text-transform: uppercase; color: var(--text-tertiary);
+}
+.om-stat__value {
+  font-family: var(--font-display); font-size: var(--fs-h2, 30px); font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-tight); color: var(--text-primary); line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+}
+.om-stat__value small { font-size: 0.5em; font-weight: var(--fw-medium); color: var(--text-tertiary); margin-left: 3px; }
+.om-stat__foot { display: flex; align-items: center; gap: 8px; }
+.om-stat__delta {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-family: var(--font-mono); font-size: var(--fs-caption); font-weight: var(--fw-medium);
+}
+.om-stat__delta--up   { color: var(--success); }
+.om-stat__delta--down { color: var(--danger); }
+.om-stat__delta--flat { color: var(--text-tertiary); }
+.om-stat__sub { font-size: var(--fs-caption); color: var(--text-disabled); }
+.om-stat__spark { position: absolute; right: 0; bottom: 0; width: 96px; height: 44px; opacity: 0.9; pointer-events: none; }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-stat-css")) {
+  const s = document.createElement("style");
+  s.id = "om-stat-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Spark({
+  data,
+  trend
+}) {
+  const W = 96,
+    H = 44,
+    max = Math.max(...data),
+    min = Math.min(...data);
+  const span = max - min || 1;
+  const step = W / (data.length - 1);
+  const pts = data.map((v, i) => [i * step, H - (v - min) / span * (H - 8) - 4]);
+  const line = pts.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ");
+  const stroke = trend === "down" ? "var(--danger)" : "var(--accent)";
+  const fillId = "omStatSpark" + trend;
+  return /*#__PURE__*/React.createElement("svg", {
+    className: "om-stat__spark",
+    viewBox: `0 0 ${W} ${H}`,
+    preserveAspectRatio: "none"
+  }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: fillId,
+    x1: "0",
+    y1: "0",
+    x2: "0",
+    y2: "1"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0",
+    stopColor: stroke,
+    stopOpacity: "0.22"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "1",
+    stopColor: stroke,
+    stopOpacity: "0"
+  }))), /*#__PURE__*/React.createElement("path", {
+    d: `${line} L ${W} ${H} L 0 ${H} Z`,
+    fill: `url(#${fillId})`
+  }), /*#__PURE__*/React.createElement("path", {
+    d: line,
+    fill: "none",
+    stroke: stroke,
+    strokeWidth: "1.6",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }));
+}
+function StatCard({
+  icon,
+  label,
+  value,
+  unit,
+  delta,
+  trend,
+  sub,
+  spark,
+  ...rest
+}) {
+  const dir = trend || (delta && /^[+\-−]/.test(String(delta)) ? String(delta)[0] === "+" ? "up" : "down" : "flat");
+  const deltaIco = dir === "up" ? "trending-up" : dir === "down" ? "trending-down" : "minus";
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: "om-stat"
+  }, rest), spark && spark.length > 1 && /*#__PURE__*/React.createElement(Spark, {
+    data: spark,
+    trend: dir
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "om-stat__top"
+  }, icon && /*#__PURE__*/React.createElement("span", {
+    className: "om-stat__icon"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: icon,
+    size: 16
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "om-stat__label"
+  }, label)), /*#__PURE__*/React.createElement("div", {
+    className: "om-stat__value"
+  }, value, unit && /*#__PURE__*/React.createElement("small", null, unit)), (delta != null || sub) && /*#__PURE__*/React.createElement("div", {
+    className: "om-stat__foot"
+  }, delta != null && /*#__PURE__*/React.createElement("span", {
+    className: `om-stat__delta om-stat__delta--${dir}`
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: deltaIco,
+    size: 13
+  }), delta), sub && /*#__PURE__*/React.createElement("span", {
+    className: "om-stat__sub"
+  }, sub)));
+}
+Object.assign(__ds_scope, { StatCard });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/StatCard.jsx", error: String((e && e.message) || e) }); }
+
 // components/data/Table.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -507,15 +862,36 @@ const css = `
 .om-table tbody tr:last-child td { border-bottom: none; }
 .om-table tbody tr { transition: background var(--dur-fast) var(--ease-out); }
 .om-table--hover tbody tr:hover { background: var(--surface-glass); }
-.om-table--hover tbody tr { cursor: default; }
 .om-table--dense thead th { padding: 9px 14px; }
 .om-table--dense tbody td { padding: 9px 14px; }
 .om-table__align-right { text-align: right; }
 .om-table__align-center { text-align: center; }
 .om-table__num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--text-primary); }
-.om-table__sortable { cursor: pointer; user-select: none; }
+.om-table__sortable { cursor: pointer; user-select: none; transition: color var(--dur-fast) var(--ease-out); }
 .om-table__sortable:hover { color: var(--text-secondary); }
-.om-table__sort-ico { display: inline-block; margin-left: 5px; vertical-align: -1px; opacity: 0.55; }
+.om-table__sorth { display: inline-flex; align-items: center; gap: 5px; }
+.om-table__sortable--active { color: var(--text-primary); }
+.om-table__sort-ico { display: inline-flex; opacity: 0.4; transition: opacity var(--dur-fast) var(--ease-out); }
+.om-table__sortable:hover .om-table__sort-ico { opacity: 0.7; }
+.om-table__sortable--active .om-table__sort-ico { opacity: 1; color: var(--accent); }
+.om-table__selcell { width: 1px; padding-right: 0 !important; }
+.om-table tbody tr[data-selected="true"] { background: var(--accent-soft); }
+.om-table tbody tr[data-selected="true"]:hover { background: var(--accent-soft); }
+.om-table__check {
+  appearance: none; -webkit-appearance: none; width: 16px; height: 16px; margin: 0; display: block;
+  border: var(--hairline) solid var(--border-strong, var(--border-default)); border-radius: var(--radius-xs);
+  background: var(--surface-glass); cursor: pointer; position: relative;
+  transition: background var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.om-table__check:hover { border-color: var(--accent); }
+.om-table__check:checked, .om-table__check:indeterminate { background: var(--accent); border-color: transparent; }
+.om-table__check:checked::after {
+  content: ""; position: absolute; left: 5px; top: 2px; width: 4px; height: 8px;
+  border: solid var(--on-accent); border-width: 0 2px 2px 0; rotate: 45deg;
+}
+.om-table__check:indeterminate::after {
+  content: ""; position: absolute; left: 3px; top: 6.5px; width: 8px; height: 2px; background: var(--on-accent); border-radius: 1px;
+}
 `;
 if (typeof document !== "undefined" && !document.getElementById("om-table-css")) {
   const s = document.createElement("style");
@@ -523,40 +899,362 @@ if (typeof document !== "undefined" && !document.getElementById("om-table-css"))
   s.textContent = css;
   document.head.appendChild(s);
 }
+const alignCls = a => a === "right" ? " om-table__align-right" : a === "center" ? " om-table__align-center" : "";
+function defaultCompare(a, b) {
+  if (a == null) return -1;
+  if (b == null) return 1;
+  const na = typeof a === "string" ? parseFloat(a.replace(/[^0-9.-]/g, "")) : a;
+  const nb = typeof b === "string" ? parseFloat(b.replace(/[^0-9.-]/g, "")) : b;
+  if (!isNaN(na) && !isNaN(nb) && a !== "" && b !== "") return na - nb;
+  return String(a).localeCompare(String(b));
+}
 function Table({
   columns = [],
   rows = [],
   dense = false,
   hover = true,
   rowKey,
+  selectable = false,
+  selected,
+  onSelectionChange,
+  defaultSort,
+  onSortChange,
   ...rest
 }) {
+  const keyOf = (row, i) => rowKey ? row[rowKey] : i;
+
+  // Sorting (uncontrolled unless a column provides controlled handling via onSortChange).
+  const [sortState, setSortState] = React.useState(defaultSort || null);
+  const sort = sortState;
+  const handleSort = col => {
+    if (!col.sortable) return;
+    let next;
+    if (!sort || sort.key !== col.key) next = {
+      key: col.key,
+      dir: "asc"
+    };else if (sort.dir === "asc") next = {
+      key: col.key,
+      dir: "desc"
+    };else next = null;
+    setSortState(next);
+    onSortChange && onSortChange(next);
+  };
+  let body = rows;
+  if (sort) {
+    const col = columns.find(c => c.key === sort.key);
+    const cmp = col && col.compare || defaultCompare;
+    body = [...rows].sort((ra, rb) => {
+      const r = cmp(ra[sort.key], rb[sort.key], ra, rb);
+      return sort.dir === "asc" ? r : -r;
+    });
+  }
+
+  // Selection (controlled if `selected` provided, else internal).
+  const [selInternal, setSelInternal] = React.useState([]);
+  const sel = selected != null ? selected : selInternal;
+  const selSet = new Set(sel);
+  const allKeys = body.map(keyOf);
+  const allChecked = allKeys.length > 0 && allKeys.every(k => selSet.has(k));
+  const someChecked = allKeys.some(k => selSet.has(k));
+  const setSel = next => {
+    if (selected == null) setSelInternal(next);
+    onSelectionChange && onSelectionChange(next);
+  };
+  const toggleRow = k => {
+    const next = selSet.has(k) ? sel.filter(x => x !== k) : [...sel, k];
+    setSel(next);
+  };
+  const toggleAll = () => setSel(allChecked ? [] : allKeys);
   const cls = ["om-table", hover && "om-table--hover", dense && "om-table--dense"].filter(Boolean).join(" ");
-  const alignCls = a => a === "right" ? " om-table__align-right" : a === "center" ? " om-table__align-center" : "";
+  const headerRef = React.useRef(null);
+  React.useEffect(() => {
+    if (headerRef.current) headerRef.current.indeterminate = someChecked && !allChecked;
+  }, [someChecked, allChecked]);
   return /*#__PURE__*/React.createElement("div", _extends({
     className: "om-table-wrap"
   }, rest), /*#__PURE__*/React.createElement("table", {
     className: cls
-  }, /*#__PURE__*/React.createElement("thead", null, /*#__PURE__*/React.createElement("tr", null, columns.map(c => /*#__PURE__*/React.createElement("th", {
-    key: c.key,
-    className: alignCls(c.align).trim(),
-    style: c.width ? {
-      width: c.width
-    } : undefined
-  }, c.header)))), /*#__PURE__*/React.createElement("tbody", null, rows.map((row, ri) => /*#__PURE__*/React.createElement("tr", {
-    key: rowKey ? row[rowKey] : ri
-  }, columns.map(c => {
-    const raw = row[c.key];
-    const content = c.render ? c.render(raw, row, ri) : raw;
-    const numCls = c.numeric ? " om-table__num" : "";
-    return /*#__PURE__*/React.createElement("td", {
+  }, /*#__PURE__*/React.createElement("thead", null, /*#__PURE__*/React.createElement("tr", null, selectable && /*#__PURE__*/React.createElement("th", {
+    className: "om-table__selcell"
+  }, /*#__PURE__*/React.createElement("input", {
+    ref: headerRef,
+    type: "checkbox",
+    className: "om-table__check",
+    checked: allChecked,
+    onChange: toggleAll,
+    "aria-label": "Select all rows"
+  })), columns.map(c => {
+    const active = sort && sort.key === c.key;
+    const thCls = (alignCls(c.align) + (c.sortable ? " om-table__sortable" : "") + (active ? " om-table__sortable--active" : "")).trim() || undefined;
+    return /*#__PURE__*/React.createElement("th", {
       key: c.key,
-      className: (alignCls(c.align) + numCls).trim() || undefined
-    }, content);
-  }))))));
+      className: thCls,
+      style: c.width ? {
+        width: c.width
+      } : undefined,
+      onClick: () => handleSort(c)
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "om-table__sorth",
+      style: c.align === "right" ? {
+        flexDirection: "row-reverse"
+      } : undefined
+    }, c.header, c.sortable && /*#__PURE__*/React.createElement("span", {
+      className: "om-table__sort-ico"
+    }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: active ? sort.dir === "asc" ? "arrow-up" : "arrow-down" : "chevrons-up-down",
+      size: 13
+    }))));
+  }))), /*#__PURE__*/React.createElement("tbody", null, body.map((row, ri) => {
+    const k = keyOf(row, ri);
+    const isSel = selSet.has(k);
+    return /*#__PURE__*/React.createElement("tr", {
+      key: k,
+      "data-selected": selectable && isSel ? "true" : undefined
+    }, selectable && /*#__PURE__*/React.createElement("td", {
+      className: "om-table__selcell"
+    }, /*#__PURE__*/React.createElement("input", {
+      type: "checkbox",
+      className: "om-table__check",
+      checked: isSel,
+      onChange: () => toggleRow(k),
+      "aria-label": "Select row"
+    })), columns.map(c => {
+      const raw = row[c.key];
+      const content = c.render ? c.render(raw, row, ri) : raw;
+      const numCls = c.numeric ? " om-table__num" : "";
+      return /*#__PURE__*/React.createElement("td", {
+        key: c.key,
+        className: (alignCls(c.align) + numCls).trim() || undefined
+      }, content);
+    }));
+  }))));
 }
 Object.assign(__ds_scope, { Table });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/Table.jsx", error: String((e && e.message) || e) }); }
+
+// components/data/Timeline.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-timeline { display: flex; flex-direction: column; font-family: var(--font-body); }
+.om-tl-item { display: grid; grid-template-columns: auto 1fr; gap: 14px; }
+.om-tl-item__rail { display: flex; flex-direction: column; align-items: center; }
+.om-tl-item__dot {
+  display: grid; place-items: center; flex: none; margin-top: 1px;
+  width: 26px; height: 26px; border-radius: var(--radius-pill);
+  background: var(--surface-glass-strong); border: var(--hairline) solid var(--border-default);
+  color: var(--_ac, var(--text-tertiary)); z-index: 1;
+}
+.om-tl-item__dot--bare {
+  width: 11px; height: 11px; margin-top: 7px;
+  background: var(--_ac, var(--text-tertiary)); border: 2px solid var(--surface-base); box-shadow: 0 0 0 1px var(--border-default);
+}
+.om-tl-item__line { flex: 1; width: 2px; background: var(--border-subtle); margin: 4px 0; min-height: 10px; }
+.om-tl-item:last-child .om-tl-item__line { display: none; }
+.om-tl-item__body { padding-bottom: 22px; min-width: 0; }
+.om-tl-item:last-child .om-tl-item__body { padding-bottom: 0; }
+.om-tl-item__head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.om-tl-item__title {
+  font-family: var(--font-display); font-size: var(--fs-body-sm); font-weight: var(--fw-semibold);
+  color: var(--text-primary); letter-spacing: var(--ls-tight); line-height: var(--lh-snug);
+}
+.om-tl-item__time { font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--text-disabled); margin-left: auto; white-space: nowrap; }
+.om-tl-item__desc { font-size: var(--fs-body-sm); color: var(--text-tertiary); line-height: var(--lh-body); margin-top: 4px; }
+.om-tl-item__meta { margin-top: 8px; }
+.om-tl--var-success { --_ac: var(--success); }
+.om-tl--var-warning { --_ac: var(--warning); }
+.om-tl--var-danger  { --_ac: var(--danger); }
+.om-tl--var-accent  { --_ac: var(--accent); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-timeline-css")) {
+  const s = document.createElement("style");
+  s.id = "om-timeline-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Timeline({
+  items = [],
+  ...rest
+}) {
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: "om-timeline"
+  }, rest), items.map((it, i) => {
+    const varCls = it.variant ? ` om-tl--var-${it.variant}` : "";
+    return /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item" + varCls,
+      key: i
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item__rail"
+    }, it.icon ? /*#__PURE__*/React.createElement("span", {
+      className: "om-tl-item__dot"
+    }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: it.icon,
+      size: 14
+    })) : /*#__PURE__*/React.createElement("span", {
+      className: "om-tl-item__dot om-tl-item__dot--bare"
+    }), /*#__PURE__*/React.createElement("span", {
+      className: "om-tl-item__line"
+    })), /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item__body"
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item__head"
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "om-tl-item__title"
+    }, it.title), it.time && /*#__PURE__*/React.createElement("span", {
+      className: "om-tl-item__time"
+    }, it.time)), it.description && /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item__desc"
+    }, it.description), it.meta && /*#__PURE__*/React.createElement("div", {
+      className: "om-tl-item__meta"
+    }, it.meta)));
+  }));
+}
+Object.assign(__ds_scope, { Timeline });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/Timeline.jsx", error: String((e && e.message) || e) }); }
+
+// components/feedback/Alert.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-alert {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 14px 16px; border-radius: var(--radius-md);
+  font-family: var(--font-body); position: relative;
+  border: var(--hairline) solid var(--_bd, var(--border-default));
+  background: var(--_bg, var(--surface-raised));
+}
+.om-alert__icon { flex: none; margin-top: 1px; color: var(--_ac, var(--text-secondary)); }
+.om-alert__body { flex: 1; min-width: 0; }
+.om-alert__title {
+  font-family: var(--font-display); font-size: var(--fs-body-sm); font-weight: var(--fw-semibold);
+  color: var(--text-primary); letter-spacing: var(--ls-tight); line-height: var(--lh-snug);
+}
+.om-alert__msg { font-size: var(--fs-body-sm); color: var(--text-secondary); line-height: var(--lh-body); }
+.om-alert__title + .om-alert__msg { margin-top: 3px; }
+.om-alert__actions { display: flex; gap: 8px; margin-top: 11px; }
+.om-alert__close {
+  flex: none; display: grid; place-items: center; width: 26px; height: 26px; margin: -3px -4px 0 0;
+  border-radius: var(--radius-sm); border: none; background: transparent; cursor: pointer;
+  color: var(--text-tertiary); transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.om-alert__close:hover { color: var(--text-primary); background: var(--surface-glass); }
+
+.om-alert--info    { --_bg: var(--accent-soft);   --_bd: rgb(61 130 255 / 0.30);  --_ac: var(--info); }
+.om-alert--success { --_bg: var(--success-soft);  --_bd: rgb(31 201 138 / 0.30);  --_ac: var(--success); }
+.om-alert--warning { --_bg: var(--warning-soft);  --_bd: rgb(239 162 31 / 0.32);  --_ac: var(--warning); }
+.om-alert--danger  { --_bg: var(--danger-soft);   --_bd: rgb(245 69 90 / 0.32);   --_ac: var(--danger); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-alert-css")) {
+  const s = document.createElement("style");
+  s.id = "om-alert-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+const ICONS = {
+  info: "info",
+  success: "circle-check",
+  warning: "triangle-alert",
+  danger: "octagon-alert"
+};
+function Alert({
+  variant = "info",
+  title,
+  children,
+  icon,
+  actions,
+  onClose,
+  ...rest
+}) {
+  const iconName = icon === null ? null : icon || ICONS[variant] || "info";
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: `om-alert om-alert--${variant}`,
+    role: "alert"
+  }, rest), iconName && /*#__PURE__*/React.createElement("span", {
+    className: "om-alert__icon"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: iconName,
+    size: 18
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "om-alert__body"
+  }, title && /*#__PURE__*/React.createElement("div", {
+    className: "om-alert__title"
+  }, title), children != null && /*#__PURE__*/React.createElement("div", {
+    className: "om-alert__msg"
+  }, children), actions && /*#__PURE__*/React.createElement("div", {
+    className: "om-alert__actions"
+  }, actions)), onClose && /*#__PURE__*/React.createElement("button", {
+    className: "om-alert__close",
+    "aria-label": "Dismiss",
+    onClick: onClose
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "x",
+    size: 16
+  })));
+}
+Object.assign(__ds_scope, { Alert });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/feedback/Alert.jsx", error: String((e && e.message) || e) }); }
+
+// components/feedback/EmptyState.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-empty {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding: 48px 32px; font-family: var(--font-body);
+}
+.om-empty--bordered {
+  border: var(--hairline) dashed var(--border-default);
+  border-radius: var(--radius-lg); background: var(--surface-raised);
+}
+.om-empty__icon {
+  display: grid; place-items: center; width: 56px; height: 56px; margin-bottom: 18px;
+  border-radius: var(--radius-lg);
+  background: var(--surface-glass-strong);
+  border: var(--hairline) solid var(--border-default);
+  box-shadow: var(--inset-highlight);
+  color: var(--accent);
+}
+.om-empty__title {
+  font-family: var(--font-display); font-size: var(--fs-h5, var(--fs-h4)); font-weight: var(--fw-semibold);
+  color: var(--text-primary); letter-spacing: var(--ls-tight); line-height: var(--lh-snug);
+}
+.om-empty__desc {
+  font-size: var(--fs-body-sm); color: var(--text-tertiary); line-height: var(--lh-body);
+  margin-top: 7px; max-width: 42ch;
+}
+.om-empty__actions { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; justify-content: center; }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-empty-css")) {
+  const s = document.createElement("style");
+  s.id = "om-empty-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function EmptyState({
+  icon = "inbox",
+  title,
+  description,
+  actions,
+  bordered = false,
+  ...rest
+}) {
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: `om-empty ${bordered ? "om-empty--bordered" : ""}`
+  }, rest), icon && /*#__PURE__*/React.createElement("div", {
+    className: "om-empty__icon"
+  }, typeof icon === "string" ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: icon,
+    size: 26
+  }) : icon), title && /*#__PURE__*/React.createElement("div", {
+    className: "om-empty__title"
+  }, title), description && /*#__PURE__*/React.createElement("div", {
+    className: "om-empty__desc"
+  }, description), actions && /*#__PURE__*/React.createElement("div", {
+    className: "om-empty__actions"
+  }, actions));
+}
+Object.assign(__ds_scope, { EmptyState });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/feedback/EmptyState.jsx", error: String((e && e.message) || e) }); }
 
 // components/feedback/Progress.jsx
 try { (() => {
@@ -893,6 +1591,100 @@ function Select({
 Object.assign(__ds_scope, { Select });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Select.jsx", error: String((e && e.message) || e) }); }
 
+// components/forms/Slider.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-slider { display: flex; flex-direction: column; gap: 9px; font-family: var(--font-body); }
+.om-slider__top { display: flex; align-items: baseline; gap: 10px; }
+.om-slider__label { font-size: var(--fs-body-sm); font-weight: var(--fw-medium); color: var(--text-secondary); }
+.om-slider__value {
+  margin-left: auto; font-family: var(--font-mono); font-size: var(--fs-body-sm);
+  color: var(--text-primary); font-variant-numeric: tabular-nums;
+}
+.om-slider__input {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 6px; margin: 6px 0; cursor: pointer;
+  background: linear-gradient(var(--accent), var(--accent)) 0 / var(--_pct, 0%) 100% no-repeat, var(--surface-sunken);
+  border: var(--hairline) solid var(--border-default); border-radius: var(--radius-pill);
+  transition: box-shadow var(--dur-base) var(--ease-out);
+}
+.om-slider__input:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--accent-soft); }
+.om-slider__input[disabled] { opacity: 0.5; cursor: not-allowed; }
+.om-slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 18px; height: 18px; border-radius: 50%;
+  background: #fff; border: var(--hairline) solid var(--border-strong);
+  box-shadow: var(--shadow-sm), var(--glow-accent);
+  transition: transform var(--dur-fast) var(--ease-spring);
+}
+.om-slider__input::-webkit-slider-thumb:active { transform: scale(1.18); }
+.om-slider__input::-moz-range-thumb {
+  width: 18px; height: 18px; border-radius: 50%; background: #fff;
+  border: var(--hairline) solid var(--border-strong); box-shadow: var(--shadow-sm), var(--glow-accent);
+}
+.om-slider__ticks { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: var(--fs-micro); color: var(--text-disabled); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-slider-css")) {
+  const s = document.createElement("style");
+  s.id = "om-slider-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Slider({
+  label,
+  min = 0,
+  max = 100,
+  step = 1,
+  value,
+  defaultValue,
+  onChange,
+  showValue = true,
+  formatValue,
+  ticks,
+  disabled = false,
+  id,
+  ...rest
+}) {
+  const [internal, setInternal] = React.useState(defaultValue != null ? defaultValue : min);
+  const val = value != null ? value : internal;
+  const pct = (val - min) / (max - min) * 100;
+  const fieldId = id || (label ? `om-${String(label).replace(/\s+/g, "-").toLowerCase()}` : undefined);
+  const handle = e => {
+    const v = Number(e.target.value);
+    if (value == null) setInternal(v);
+    onChange && onChange(v, e);
+  };
+  const fmt = v => formatValue ? formatValue(v) : v;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "om-slider"
+  }, (label || showValue) && /*#__PURE__*/React.createElement("div", {
+    className: "om-slider__top"
+  }, label && /*#__PURE__*/React.createElement("label", {
+    className: "om-slider__label",
+    htmlFor: fieldId
+  }, label), showValue && /*#__PURE__*/React.createElement("span", {
+    className: "om-slider__value"
+  }, fmt(val))), /*#__PURE__*/React.createElement("input", _extends({
+    id: fieldId,
+    type: "range",
+    className: "om-slider__input",
+    min: min,
+    max: max,
+    step: step,
+    value: val,
+    onChange: handle,
+    disabled: disabled,
+    style: {
+      "--_pct": pct + "%"
+    }
+  }, rest)), ticks && ticks.length > 0 && /*#__PURE__*/React.createElement("div", {
+    className: "om-slider__ticks"
+  }, ticks.map((t, i) => /*#__PURE__*/React.createElement("span", {
+    key: i
+  }, t))));
+}
+Object.assign(__ds_scope, { Slider });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Slider.jsx", error: String((e && e.message) || e) }); }
+
 // components/forms/Switch.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -947,6 +1739,186 @@ function Switch({
 }
 Object.assign(__ds_scope, { Switch });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Switch.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/Textarea.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-textarea {
+  width: 100%; min-height: var(--_minh, 96px); resize: vertical;
+  font-family: var(--font-body); font-size: var(--fs-body-sm); color: var(--text-primary);
+  line-height: var(--lh-body);
+  background: var(--surface-sunken);
+  border: var(--hairline) solid var(--border-default);
+  border-radius: var(--radius-md);
+  padding: 11px 14px;
+  transition: border-color var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out);
+}
+.om-textarea::placeholder { color: var(--text-disabled); }
+.om-textarea:hover { border-color: var(--border-strong); }
+.om-textarea:focus {
+  outline: none; border-color: var(--border-accent);
+  box-shadow: 0 0 0 3px var(--accent-soft); background: var(--surface-base);
+}
+.om-textarea[disabled] { opacity: 0.5; pointer-events: none; }
+.om-field--error .om-textarea { border-color: rgb(245 69 90 / 0.6); }
+.om-field--error .om-textarea:focus { box-shadow: 0 0 0 3px var(--danger-soft); }
+.om-textarea__foot { display: flex; align-items: center; gap: 10px; }
+.om-textarea__count { margin-left: auto; font-family: var(--font-mono); font-size: var(--fs-caption); color: var(--text-disabled); font-variant-numeric: tabular-nums; }
+.om-textarea__count--over { color: var(--rose-400); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-textarea-css")) {
+  const s = document.createElement("style");
+  s.id = "om-textarea-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Textarea({
+  label,
+  hint,
+  error,
+  required = false,
+  rows = 4,
+  maxLength,
+  showCount = false,
+  value,
+  defaultValue,
+  onChange,
+  id,
+  minHeight,
+  ...rest
+}) {
+  const fieldId = id || (label ? `om-${label.replace(/\s+/g, "-").toLowerCase()}` : undefined);
+  const [internal, setInternal] = React.useState(defaultValue || "");
+  const val = value != null ? value : internal;
+  const count = String(val || "").length;
+  const over = maxLength != null && count > maxLength;
+  const handle = e => {
+    if (value == null) setInternal(e.target.value);
+    onChange && onChange(e);
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: `om-field ${error ? "om-field--error" : ""}`
+  }, label && /*#__PURE__*/React.createElement("label", {
+    className: "om-field__label",
+    htmlFor: fieldId
+  }, label, required && /*#__PURE__*/React.createElement("span", {
+    className: "om-field__req"
+  }, "*")), /*#__PURE__*/React.createElement("textarea", _extends({
+    id: fieldId,
+    className: "om-textarea",
+    rows: rows,
+    maxLength: maxLength,
+    value: value != null ? value : undefined,
+    defaultValue: value == null ? defaultValue : undefined,
+    onChange: handle,
+    style: minHeight ? {
+      "--_minh": typeof minHeight === "number" ? minHeight + "px" : minHeight
+    } : undefined
+  }, rest)), (error || hint || showCount) && /*#__PURE__*/React.createElement("div", {
+    className: "om-textarea__foot"
+  }, (error || hint) && /*#__PURE__*/React.createElement("span", {
+    className: "om-field__hint"
+  }, error || hint), showCount && /*#__PURE__*/React.createElement("span", {
+    className: `om-textarea__count ${over ? "om-textarea__count--over" : ""}`
+  }, count, maxLength != null ? ` / ${maxLength}` : "")));
+}
+Object.assign(__ds_scope, { Textarea });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Textarea.jsx", error: String((e && e.message) || e) }); }
+
+// components/navigation/Breadcrumb.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+.om-crumb { display: flex; align-items: center; flex-wrap: wrap; gap: 2px;
+  font-family: var(--font-body); font-size: var(--fs-body-sm); }
+.om-crumb__item {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--text-tertiary); text-decoration: none; padding: 4px 7px;
+  border-radius: var(--radius-sm); white-space: nowrap;
+  transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.om-crumb__item[href], .om-crumb__item--button { cursor: pointer; }
+.om-crumb__item[href]:hover, .om-crumb__item--button:hover { color: var(--text-primary); background: var(--surface-glass); }
+.om-crumb__item .om-icon { color: var(--text-disabled); }
+.om-crumb__item--current { color: var(--text-primary); font-weight: var(--fw-medium); }
+.om-crumb__sep { color: var(--text-disabled); display: inline-flex; flex: none; }
+.om-crumb__ellipsis {
+  color: var(--text-tertiary); background: transparent; border: none; cursor: pointer;
+  padding: 4px 6px; border-radius: var(--radius-sm); display: inline-flex; align-items: center;
+}
+.om-crumb__ellipsis:hover { color: var(--text-primary); background: var(--surface-glass); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-crumb-css")) {
+  const s = document.createElement("style");
+  s.id = "om-crumb-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Breadcrumb({
+  items = [],
+  separator = "chevron-right",
+  maxItems = 0,
+  ...rest
+}) {
+  let display = items;
+  let collapsed = false;
+  if (maxItems > 0 && items.length > maxItems) {
+    display = [items[0], {
+      _ellipsis: true
+    }, ...items.slice(items.length - (maxItems - 1))];
+    collapsed = true;
+  }
+  const Sep = () => /*#__PURE__*/React.createElement("span", {
+    className: "om-crumb__sep",
+    "aria-hidden": "true"
+  }, typeof separator === "string" ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: separator,
+    size: 14
+  }) : separator);
+  return /*#__PURE__*/React.createElement("nav", _extends({
+    className: "om-crumb",
+    "aria-label": "Breadcrumb"
+  }, rest), display.map((it, i) => {
+    const last = i === display.length - 1;
+    if (it._ellipsis) {
+      return /*#__PURE__*/React.createElement(React.Fragment, {
+        key: "ell"
+      }, /*#__PURE__*/React.createElement("span", {
+        className: "om-crumb__ellipsis",
+        title: "Collapsed path"
+      }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+        name: "ellipsis",
+        size: 15
+      })), !last && /*#__PURE__*/React.createElement(Sep, null));
+    }
+    const current = last;
+    const cls = "om-crumb__item" + (current ? " om-crumb__item--current" : "") + (it.onClick && !current ? " om-crumb__item--button" : "");
+    const inner = /*#__PURE__*/React.createElement(React.Fragment, null, it.icon && /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: it.icon,
+      size: 14
+    }), /*#__PURE__*/React.createElement("span", null, it.label));
+    const node = it.href && !current ? /*#__PURE__*/React.createElement("a", {
+      key: i,
+      className: cls,
+      href: it.href
+    }, inner) : it.onClick && !current ? /*#__PURE__*/React.createElement("button", {
+      key: i,
+      type: "button",
+      className: cls,
+      onClick: it.onClick
+    }, inner) : /*#__PURE__*/React.createElement("span", {
+      key: i,
+      className: cls,
+      "aria-current": current ? "page" : undefined
+    }, inner);
+    return /*#__PURE__*/React.createElement(React.Fragment, {
+      key: i
+    }, node, !last && /*#__PURE__*/React.createElement(Sep, null));
+  }));
+}
+Object.assign(__ds_scope, { Breadcrumb });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/Breadcrumb.jsx", error: String((e && e.message) || e) }); }
 
 // components/navigation/Tabs.jsx
 try { (() => {
@@ -1020,6 +1992,308 @@ function Tabs({
 }
 Object.assign(__ds_scope, { Tabs });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/Tabs.jsx", error: String((e && e.message) || e) }); }
+
+// components/overlay/CommandPalette.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+@keyframes om-cmdk-scrim-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes om-cmdk-pop-in {
+  from { opacity: 0; transform: translateY(-10px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.om-cmdk__scrim {
+  position: fixed; inset: 0; z-index: 90; display: flex; justify-content: center;
+  padding: 14vh 24px 24px; background: rgb(3 4 7 / 0.6); backdrop-filter: blur(var(--blur-sm));
+  animation: om-cmdk-scrim-in var(--dur-base) var(--ease-out);
+}
+.om-cmdk {
+  width: 100%; max-width: 580px; max-height: 60vh; align-self: flex-start;
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--surface-overlay); border: var(--hairline) solid var(--border-default);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-xl), var(--inset-highlight-strong);
+  font-family: var(--font-body); animation: om-cmdk-pop-in var(--dur-slow) var(--ease-spring);
+}
+.om-cmdk__search { display: flex; align-items: center; gap: 11px; padding: 15px 18px; border-bottom: var(--hairline) solid var(--border-subtle); }
+.om-cmdk__search .om-icon { color: var(--text-tertiary); flex: none; }
+.om-cmdk__input {
+  flex: 1; min-width: 0; background: transparent; border: none; outline: none;
+  font-family: var(--font-body); font-size: var(--fs-body); color: var(--text-primary);
+}
+.om-cmdk__input::placeholder { color: var(--text-disabled); }
+.om-cmdk__esc {
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-tertiary); flex: none;
+  padding: 2px 7px; border-radius: var(--radius-xs); background: var(--surface-glass); border: var(--hairline) solid var(--border-subtle);
+}
+.om-cmdk__list { overflow-y: auto; padding: 6px; }
+.om-cmdk__group {
+  font-family: var(--font-mono); font-size: var(--fs-micro); letter-spacing: var(--ls-overline);
+  text-transform: uppercase; color: var(--text-tertiary); padding: 10px 10px 5px;
+}
+.om-cmdk__item {
+  display: flex; align-items: center; gap: 11px; width: 100%; text-align: left;
+  padding: 9px 11px; border-radius: var(--radius-sm); border: none; background: transparent; cursor: pointer;
+  font-family: var(--font-body); font-size: var(--fs-body-sm); color: var(--text-secondary);
+}
+.om-cmdk__item .om-icon { color: var(--text-tertiary); flex: none; }
+.om-cmdk__item--active { background: var(--surface-glass-strong); color: var(--text-primary); }
+.om-cmdk__item--active .om-icon { color: var(--accent); }
+.om-cmdk__item-label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.om-cmdk__item-hint { font-size: var(--fs-caption); color: var(--text-disabled); }
+.om-cmdk__shortcut { display: flex; gap: 3px; flex: none; }
+.om-cmdk__shortcut kbd {
+  font-family: var(--font-mono); font-size: 10px; color: var(--text-tertiary);
+  padding: 2px 6px; border-radius: var(--radius-xs); background: var(--surface-glass); border: var(--hairline) solid var(--border-subtle);
+}
+.om-cmdk__empty { padding: 34px 16px; text-align: center; color: var(--text-disabled); font-size: var(--fs-body-sm); }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-cmdk-css")) {
+  const s = document.createElement("style");
+  s.id = "om-cmdk-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function CommandPalette({
+  open,
+  onClose,
+  items = [],
+  placeholder = "Type a command or search…",
+  emptyText = "No results found",
+  ...rest
+}) {
+  const [query, setQuery] = React.useState("");
+  const [active, setActive] = React.useState(0);
+  const inputRef = React.useRef(null);
+  const listRef = React.useRef(null);
+  React.useEffect(() => {
+    if (open) {
+      setQuery("");
+      setActive(0);
+      const t = setTimeout(() => inputRef.current && inputRef.current.focus(), 30);
+      return () => clearTimeout(t);
+    }
+  }, [open]);
+  const q = query.trim().toLowerCase();
+  const filtered = q ? items.filter(it => (it.label + " " + (it.keywords || "") + " " + (it.group || "")).toLowerCase().includes(q)) : items;
+
+  // group while preserving order
+  const groups = [];
+  filtered.forEach(it => {
+    const g = it.group || "";
+    let bucket = groups.find(x => x.name === g);
+    if (!bucket) {
+      bucket = {
+        name: g,
+        items: []
+      };
+      groups.push(bucket);
+    }
+    bucket.items.push(it);
+  });
+  const flat = filtered;
+  React.useEffect(() => {
+    setActive(0);
+  }, [query]);
+  const run = it => {
+    if (!it) return;
+    onClose && onClose();
+    it.onSelect && it.onSelect();
+  };
+  const onKey = e => {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActive(a => Math.min(a + 1, flat.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActive(a => Math.max(a - 1, 0));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      run(flat[active]);
+    } else if (e.key === "Escape") {
+      onClose && onClose();
+    }
+  };
+  React.useEffect(() => {
+    if (!listRef.current) return;
+    const el = listRef.current.querySelector(".om-cmdk__item--active");
+    if (el) el.scrollIntoView({
+      block: "nearest"
+    });
+  }, [active]);
+  if (!open) return null;
+  let idx = -1;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "om-cmdk__scrim",
+    onMouseDown: e => {
+      if (e.target === e.currentTarget && onClose) onClose();
+    }
+  }, /*#__PURE__*/React.createElement("div", _extends({
+    className: "om-cmdk",
+    role: "dialog",
+    "aria-modal": "true",
+    onKeyDown: onKey
+  }, rest), /*#__PURE__*/React.createElement("div", {
+    className: "om-cmdk__search"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "search",
+    size: 18
+  }), /*#__PURE__*/React.createElement("input", {
+    ref: inputRef,
+    className: "om-cmdk__input",
+    placeholder: placeholder,
+    value: query,
+    onChange: e => setQuery(e.target.value)
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "om-cmdk__esc"
+  }, "ESC")), /*#__PURE__*/React.createElement("div", {
+    className: "om-cmdk__list",
+    ref: listRef
+  }, flat.length === 0 && /*#__PURE__*/React.createElement("div", {
+    className: "om-cmdk__empty"
+  }, emptyText), groups.map(g => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: g.name || "_"
+  }, g.name && /*#__PURE__*/React.createElement("div", {
+    className: "om-cmdk__group"
+  }, g.name), g.items.map(it => {
+    idx += 1;
+    const i = idx;
+    return /*#__PURE__*/React.createElement("button", {
+      key: i,
+      className: `om-cmdk__item ${i === active ? "om-cmdk__item--active" : ""}`,
+      onMouseEnter: () => setActive(i),
+      onClick: () => run(it)
+    }, it.icon && /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: it.icon,
+      size: 17
+    }), /*#__PURE__*/React.createElement("span", {
+      className: "om-cmdk__item-label"
+    }, it.label), it.hint && /*#__PURE__*/React.createElement("span", {
+      className: "om-cmdk__item-hint"
+    }, it.hint), it.shortcut && /*#__PURE__*/React.createElement("span", {
+      className: "om-cmdk__shortcut"
+    }, (Array.isArray(it.shortcut) ? it.shortcut : [it.shortcut]).map((k, ki) => /*#__PURE__*/React.createElement("kbd", {
+      key: ki
+    }, k))));
+  }))))));
+}
+Object.assign(__ds_scope, { CommandPalette });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/overlay/CommandPalette.jsx", error: String((e && e.message) || e) }); }
+
+// components/overlay/Drawer.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+@keyframes om-drawer-scrim-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes om-drawer-in-right { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes om-drawer-in-left  { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+@keyframes om-drawer-in-bottom{ from { transform: translateY(100%); } to { transform: translateY(0); } }
+.om-drawer__scrim {
+  position: fixed; inset: 0; z-index: 85; display: flex;
+  background: rgb(3 4 7 / 0.55); backdrop-filter: blur(var(--blur-sm));
+  animation: om-drawer-scrim-in var(--dur-base) var(--ease-out);
+}
+.om-drawer__scrim--right  { justify-content: flex-end; }
+.om-drawer__scrim--left   { justify-content: flex-start; }
+.om-drawer__scrim--bottom { align-items: flex-end; }
+.om-drawer {
+  display: flex; flex-direction: column;
+  background: var(--surface-overlay);
+  border: var(--hairline) solid var(--border-default);
+  box-shadow: var(--shadow-xl); font-family: var(--font-body); color: var(--text-primary);
+}
+.om-drawer--right, .om-drawer--left {
+  width: var(--_w, 420px); max-width: 92vw; height: 100%;
+}
+.om-drawer--right  { border-top-left-radius: var(--radius-lg); border-bottom-left-radius: var(--radius-lg);
+  animation: om-drawer-in-right var(--dur-slow) var(--ease-spring); }
+.om-drawer--left   { border-top-right-radius: var(--radius-lg); border-bottom-right-radius: var(--radius-lg);
+  animation: om-drawer-in-left var(--dur-slow) var(--ease-spring); }
+.om-drawer--bottom {
+  width: 100%; max-height: 88vh; border-top-left-radius: var(--radius-lg); border-top-right-radius: var(--radius-lg);
+  animation: om-drawer-in-bottom var(--dur-slow) var(--ease-spring);
+}
+.om-drawer__head {
+  display: flex; align-items: flex-start; gap: 16px; padding: 20px 22px;
+  border-bottom: var(--hairline) solid var(--border-subtle);
+}
+.om-drawer__titles { flex: 1; min-width: 0; }
+.om-drawer__title {
+  font-family: var(--font-display); font-size: var(--fs-h4); font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-tight); line-height: var(--lh-snug);
+}
+.om-drawer__desc { font-size: var(--fs-body-sm); color: var(--text-tertiary); margin-top: 4px; line-height: var(--lh-body); }
+.om-drawer__close {
+  flex: none; display: grid; place-items: center; width: 30px; height: 30px;
+  border-radius: var(--radius-sm); border: none; background: transparent; cursor: pointer;
+  color: var(--text-tertiary); transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.om-drawer__close:hover { color: var(--text-primary); background: var(--surface-glass); }
+.om-drawer__body { flex: 1; padding: 20px 22px; overflow-y: auto; font-size: var(--fs-body-sm); color: var(--text-secondary); line-height: var(--lh-body); }
+.om-drawer__foot {
+  display: flex; align-items: center; justify-content: flex-end; gap: 10px;
+  padding: 16px 22px; border-top: var(--hairline) solid var(--border-subtle); background: var(--surface-sunken);
+}
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-drawer-css")) {
+  const s = document.createElement("style");
+  s.id = "om-drawer-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Drawer({
+  open,
+  onClose,
+  title,
+  description,
+  children,
+  footer,
+  side = "right",
+  width,
+  closeOnScrim = true,
+  ...rest
+}) {
+  React.useEffect(() => {
+    if (!open) return;
+    const onKey = e => e.key === "Escape" && onClose && onClose();
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+  if (!open) return null;
+  return /*#__PURE__*/React.createElement("div", {
+    className: `om-drawer__scrim om-drawer__scrim--${side}`,
+    onMouseDown: e => {
+      if (closeOnScrim && e.target === e.currentTarget && onClose) onClose();
+    }
+  }, /*#__PURE__*/React.createElement("div", _extends({
+    className: `om-drawer om-drawer--${side}`,
+    role: "dialog",
+    "aria-modal": "true",
+    style: width ? {
+      "--_w": typeof width === "number" ? width + "px" : width
+    } : undefined
+  }, rest), (title || onClose) && /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__head"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__titles"
+  }, title && /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__title"
+  }, title), description && /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__desc"
+  }, description)), onClose && /*#__PURE__*/React.createElement("button", {
+    className: "om-drawer__close",
+    "aria-label": "Close",
+    onClick: onClose
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "x",
+    size: 17
+  }))), children != null && /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__body"
+  }, children), footer && /*#__PURE__*/React.createElement("div", {
+    className: "om-drawer__foot"
+  }, footer)));
+}
+Object.assign(__ds_scope, { Drawer });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/overlay/Drawer.jsx", error: String((e && e.message) || e) }); }
 
 // components/overlay/Menu.jsx
 try { (() => {
@@ -1250,6 +2524,111 @@ function Modal({
 }
 Object.assign(__ds_scope, { Modal });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/overlay/Modal.jsx", error: String((e && e.message) || e) }); }
+
+// components/overlay/Popover.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const css = `
+@keyframes om-pop-in {
+  from { opacity: 0; transform: translateY(var(--_fy, -6px)) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.om-pop-wrap { position: relative; display: inline-flex; }
+.om-pop {
+  position: absolute; z-index: 72; min-width: var(--_mw, 240px); max-width: 340px;
+  background: var(--surface-overlay);
+  border: var(--hairline) solid var(--border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg), var(--inset-highlight);
+  font-family: var(--font-body); color: var(--text-secondary);
+  animation: om-pop-in var(--dur-base) var(--ease-out);
+}
+.om-pop--bottom { top: calc(100% + 9px); --_fy: -6px; }
+.om-pop--top { bottom: calc(100% + 9px); --_fy: 6px; }
+.om-pop--start { left: 0; transform-origin: top left; }
+.om-pop--end { right: 0; transform-origin: top right; }
+.om-pop--top.om-pop--start { transform-origin: bottom left; }
+.om-pop--top.om-pop--end { transform-origin: bottom right; }
+.om-pop__head {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 13px 15px 0;
+}
+.om-pop__title {
+  font-family: var(--font-display); font-size: var(--fs-body-sm); font-weight: var(--fw-semibold);
+  color: var(--text-primary); letter-spacing: var(--ls-tight);
+}
+.om-pop__body { padding: 10px 15px 14px; font-size: var(--fs-body-sm); line-height: var(--lh-body); }
+.om-pop__arrow {
+  position: absolute; width: 8px; height: 8px; rotate: 45deg;
+  background: var(--surface-overlay); border: var(--hairline) solid var(--border-default);
+}
+.om-pop--bottom > .om-pop__arrow { top: -4.5px; border-bottom: none; border-right: none; }
+.om-pop--top > .om-pop__arrow { bottom: -4.5px; border-top: none; border-left: none; }
+.om-pop--start > .om-pop__arrow { left: 18px; }
+.om-pop--end > .om-pop__arrow { right: 18px; }
+`;
+if (typeof document !== "undefined" && !document.getElementById("om-pop-css")) {
+  const s = document.createElement("style");
+  s.id = "om-pop-css";
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+function Popover({
+  trigger,
+  children,
+  title,
+  side = "bottom",
+  align = "start",
+  open: controlledOpen,
+  onOpenChange,
+  ...rest
+}) {
+  const isControlled = controlledOpen != null;
+  const [internal, setInternal] = React.useState(false);
+  const open = isControlled ? controlledOpen : internal;
+  const setOpen = v => {
+    if (!isControlled) setInternal(v);
+    onOpenChange && onOpenChange(v);
+  };
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    if (!open) return;
+    const onDoc = e => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    const onKey = e => e.key === "Escape" && setOpen(false);
+    document.addEventListener("mousedown", onDoc);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDoc);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+  const trig = React.isValidElement(trigger) ? React.cloneElement(trigger, {
+    onClick: e => {
+      trigger.props.onClick && trigger.props.onClick(e);
+      setOpen(!open);
+    }
+  }) : trigger;
+  return /*#__PURE__*/React.createElement("span", {
+    className: "om-pop-wrap",
+    ref: ref
+  }, trig, open && /*#__PURE__*/React.createElement("div", _extends({
+    className: `om-pop om-pop--${side} om-pop--${align}`,
+    role: "dialog"
+  }, rest), /*#__PURE__*/React.createElement("span", {
+    className: "om-pop__arrow",
+    "aria-hidden": "true"
+  }), title && /*#__PURE__*/React.createElement("div", {
+    className: "om-pop__head"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "om-pop__title"
+  }, title)), /*#__PURE__*/React.createElement("div", {
+    className: "om-pop__body"
+  }, children)));
+}
+Object.assign(__ds_scope, { Popover });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/overlay/Popover.jsx", error: String((e && e.message) || e) }); }
 
 // components/overlay/Tooltip.jsx
 try { (() => {
@@ -2071,9 +3450,23 @@ __ds_ns.Icon = __ds_scope.Icon;
 
 __ds_ns.IconButton = __ds_scope.IconButton;
 
+__ds_ns.Skeleton = __ds_scope.Skeleton;
+
+__ds_ns.Spinner = __ds_scope.Spinner;
+
+__ds_ns.Tag = __ds_scope.Tag;
+
 __ds_ns.Pagination = __ds_scope.Pagination;
 
+__ds_ns.StatCard = __ds_scope.StatCard;
+
 __ds_ns.Table = __ds_scope.Table;
+
+__ds_ns.Timeline = __ds_scope.Timeline;
+
+__ds_ns.Alert = __ds_scope.Alert;
+
+__ds_ns.EmptyState = __ds_scope.EmptyState;
 
 __ds_ns.Progress = __ds_scope.Progress;
 
@@ -2085,13 +3478,25 @@ __ds_ns.Input = __ds_scope.Input;
 
 __ds_ns.Select = __ds_scope.Select;
 
+__ds_ns.Slider = __ds_scope.Slider;
+
 __ds_ns.Switch = __ds_scope.Switch;
 
+__ds_ns.Textarea = __ds_scope.Textarea;
+
+__ds_ns.Breadcrumb = __ds_scope.Breadcrumb;
+
 __ds_ns.Tabs = __ds_scope.Tabs;
+
+__ds_ns.CommandPalette = __ds_scope.CommandPalette;
+
+__ds_ns.Drawer = __ds_scope.Drawer;
 
 __ds_ns.Menu = __ds_scope.Menu;
 
 __ds_ns.Modal = __ds_scope.Modal;
+
+__ds_ns.Popover = __ds_scope.Popover;
 
 __ds_ns.Tooltip = __ds_scope.Tooltip;
 

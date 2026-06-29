@@ -44,6 +44,14 @@
         "message": "Font not provided by the design system. Available: Space Grotesk, Manrope, JetBrains Mono."
       },
       {
+        "selector": "JSXOpeningElement[name.name='Alert'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|title|children|icon|actions|onClose|key|ref|className|style|children)$/]",
+        "message": "<Alert> doesn't accept that prop. Declared props: variant, title, children, icon, actions, onClose."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Alert'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:info|success|warning|danger)$/]",
+        "message": "<Alert> variant must be one of 'info' | 'success' | 'warning' | 'danger'."
+      },
+      {
         "selector": "JSXOpeningElement[name.name='Avatar'] > JSXAttribute > JSXIdentifier[name!=/^(?:src|name|size|accent|status|key|ref|className|style|children)$/]",
         "message": "<Avatar> doesn't accept that prop. Declared props: src, name, size, accent, status."
       },
@@ -62,6 +70,10 @@
       {
         "selector": "JSXOpeningElement[name.name='Badge'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:neutral|accent|success|warning|danger|solid)$/]",
         "message": "<Badge> variant must be one of 'neutral' | 'accent' | 'success' | 'warning' | 'danger' | 'solid'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='BreadcrumbItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|icon|href|onClick|key|ref|className|style|children)$/]",
+        "message": "<BreadcrumbItem> doesn't accept that prop. Declared props: label, icon, href, onClick."
       },
       {
         "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|variant|size|iconLeft|iconRight|disabled|type|onClick|key|ref|className|style|children)$/]",
@@ -90,6 +102,22 @@
       {
         "selector": "JSXOpeningElement[name.name='Checkbox'] > JSXAttribute > JSXIdentifier[name!=/^(?:checked|defaultChecked|onChange|label|disabled|radio|name|value|key|ref|className|style|children)$/]",
         "message": "<Checkbox> doesn't accept that prop. Declared props: checked, defaultChecked, onChange, label, disabled, radio, name, value."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='CommandItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|icon|group|keywords|hint|shortcut|onSelect|key|ref|className|style|children)$/]",
+        "message": "<CommandItem> doesn't accept that prop. Declared props: label, icon, group, keywords, hint, shortcut, onSelect."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Drawer'] > JSXAttribute > JSXIdentifier[name!=/^(?:open|onClose|title|description|children|footer|side|width|closeOnScrim|key|ref|className|style|children)$/]",
+        "message": "<Drawer> doesn't accept that prop. Declared props: open, onClose, title, description, children, footer, side, width, closeOnScrim."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Drawer'] > JSXAttribute[name.name='side'] > Literal[value!=/^(?:right|left|bottom)$/]",
+        "message": "<Drawer> side must be one of 'right' | 'left' | 'bottom'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='EmptyState'] > JSXAttribute > JSXIdentifier[name!=/^(?:icon|title|description|actions|bordered|key|ref|className|style|children)$/]",
+        "message": "<EmptyState> doesn't accept that prop. Declared props: icon, title, description, actions, bordered."
       },
       {
         "selector": "JSXOpeningElement[name.name='Icon'] > JSXAttribute > JSXIdentifier[name!=/^(?:name|size|style|className|key|ref|className|style|children)$/]",
@@ -136,6 +164,18 @@
         "message": "<Pagination> doesn't accept that prop. Declared props: page, total, onChange, siblingCount, showEdges."
       },
       {
+        "selector": "JSXOpeningElement[name.name='Popover'] > JSXAttribute > JSXIdentifier[name!=/^(?:trigger|children|title|side|align|open|onOpenChange|key|ref|className|style|children)$/]",
+        "message": "<Popover> doesn't accept that prop. Declared props: trigger, children, title, side, align, open, onOpenChange."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Popover'] > JSXAttribute[name.name='side'] > Literal[value!=/^(?:bottom|top)$/]",
+        "message": "<Popover> side must be one of 'bottom' | 'top'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Popover'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:start|end)$/]",
+        "message": "<Popover> align must be one of 'start' | 'end'."
+      },
+      {
         "selector": "JSXOpeningElement[name.name='Progress'] > JSXAttribute > JSXIdentifier[name!=/^(?:value|max|label|showValue|indeterminate|key|ref|className|style|children)$/]",
         "message": "<Progress> doesn't accept that prop. Declared props: value, max, label, showValue, indeterminate."
       },
@@ -144,12 +184,36 @@
         "message": "<SelectOption> doesn't accept that prop. Declared props: value, label."
       },
       {
+        "selector": "JSXOpeningElement[name.name='Skeleton'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|width|height|lines|radius|style|key|ref|className|style|children)$/]",
+        "message": "<Skeleton> doesn't accept that prop. Declared props: variant, width, height, lines, radius, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Skeleton'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:rect|text|circle)$/]",
+        "message": "<Skeleton> variant must be one of 'rect' | 'text' | 'circle'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Slider'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|min|max|step|value|defaultValue|onChange|showValue|formatValue|ticks|disabled|key|ref|className|style|children)$/]",
+        "message": "<Slider> doesn't accept that prop. Declared props: label, min, max, step, value, defaultValue, onChange, showValue, formatValue, ticks, disabled."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Spinner'] > JSXAttribute > JSXIdentifier[name!=/^(?:size|color|label|speed|key|ref|className|style|children)$/]",
+        "message": "<Spinner> doesn't accept that prop. Declared props: size, color, label, speed."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='StatCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:icon|label|value|unit|delta|trend|sub|spark|key|ref|className|style|children)$/]",
+        "message": "<StatCard> doesn't accept that prop. Declared props: icon, label, value, unit, delta, trend, sub, spark."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='StatCard'] > JSXAttribute[name.name='trend'] > Literal[value!=/^(?:up|down|flat)$/]",
+        "message": "<StatCard> trend must be one of 'up' | 'down' | 'flat'."
+      },
+      {
         "selector": "JSXOpeningElement[name.name='Switch'] > JSXAttribute > JSXIdentifier[name!=/^(?:checked|defaultChecked|onChange|label|disabled|key|ref|className|style|children)$/]",
         "message": "<Switch> doesn't accept that prop. Declared props: checked, defaultChecked, onChange, label, disabled."
       },
       {
-        "selector": "JSXOpeningElement[name.name='TableColumn'] > JSXAttribute > JSXIdentifier[name!=/^(?:key|header|align|width|numeric|render|key|ref|className|style|children)$/]",
-        "message": "<TableColumn> doesn't accept that prop. Declared props: key, header, align, width, numeric, render."
+        "selector": "JSXOpeningElement[name.name='TableColumn'] > JSXAttribute > JSXIdentifier[name!=/^(?:key|header|align|width|numeric|sortable|compare|render|key|ref|className|style|children)$/]",
+        "message": "<TableColumn> doesn't accept that prop. Declared props: key, header, align, width, numeric, sortable, compare, render."
       },
       {
         "selector": "JSXOpeningElement[name.name='TableColumn'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:left|center|right)$/]",
@@ -158,6 +222,30 @@
       {
         "selector": "JSXOpeningElement[name.name='TabItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:value|label|count|key|ref|className|style|children)$/]",
         "message": "<TabItem> doesn't accept that prop. Declared props: value, label, count."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Tag'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|variant|size|icon|dot|onClose|key|ref|className|style|children)$/]",
+        "message": "<Tag> doesn't accept that prop. Declared props: children, variant, size, icon, dot, onClose."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Tag'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:neutral|accent|success|warning|danger)$/]",
+        "message": "<Tag> variant must be one of 'neutral' | 'accent' | 'success' | 'warning' | 'danger'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Tag'] > JSXAttribute[name.name='size'] > Literal[value!=/^(?:sm|md)$/]",
+        "message": "<Tag> size must be one of 'sm' | 'md'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Textarea'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|hint|error|required|rows|maxLength|showCount|minHeight|value|defaultValue|onChange|key|ref|className|style|children)$/]",
+        "message": "<Textarea> doesn't accept that prop. Declared props: label, hint, error, required, rows, maxLength, showCount, minHeight, value, defaultValue, onChange."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TimelineItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|description|time|icon|variant|meta|key|ref|className|style|children)$/]",
+        "message": "<TimelineItem> doesn't accept that prop. Declared props: title, description, time, icon, variant, meta."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TimelineItem'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:success|warning|danger|accent)$/]",
+        "message": "<TimelineItem> variant must be one of 'success' | 'warning' | 'danger' | 'accent'."
       },
       {
         "selector": "JSXOpeningElement[name.name='Toast'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|message|variant|onClose|key|ref|className|style|children)$/]",
@@ -189,10 +277,16 @@
   ],
   "x-omelette": {
     "components": {
+      "Alert": {
+        "replaces": []
+      },
       "Avatar": {
         "replaces": []
       },
       "Badge": {
+        "replaces": []
+      },
+      "BreadcrumbItem": {
         "replaces": []
       },
       "Button": {
@@ -202,6 +296,15 @@
         "replaces": []
       },
       "Checkbox": {
+        "replaces": []
+      },
+      "CommandItem": {
+        "replaces": []
+      },
+      "Drawer": {
+        "replaces": []
+      },
+      "EmptyState": {
         "replaces": []
       },
       "Icon": {
@@ -222,10 +325,25 @@
       "Pagination": {
         "replaces": []
       },
+      "Popover": {
+        "replaces": []
+      },
       "Progress": {
         "replaces": []
       },
       "SelectOption": {
+        "replaces": []
+      },
+      "Skeleton": {
+        "replaces": []
+      },
+      "Slider": {
+        "replaces": []
+      },
+      "Spinner": {
+        "replaces": []
+      },
+      "StatCard": {
         "replaces": []
       },
       "Switch": {
@@ -235,6 +353,15 @@
         "replaces": []
       },
       "TabItem": {
+        "replaces": []
+      },
+      "Tag": {
+        "replaces": []
+      },
+      "Textarea": {
+        "replaces": []
+      },
+      "TimelineItem": {
         "replaces": []
       },
       "Toast": {

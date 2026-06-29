@@ -1,4 +1,4 @@
-<!-- @dsCard group="Components" viewport="700x220" name="Navigation — Tabs" subtitle="Pill & underline segmented controls" -->
+<!-- @dsCard group="Components" viewport="700x320" name="Navigation — Tabs & Breadcrumb" subtitle="Segmented controls & path nav" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +17,21 @@
 <body>
   <div id="root"></div>
   <script type="text/babel">
-    const { Tabs } = window.OverModernDesignSystem_22ac94;
+    const { Tabs, Breadcrumb } = window.OverModernDesignSystem_22ac94;
     function Demo() {
       return (
         <div>
           <div>
+            <div className="lbl">Breadcrumb · collapse</div>
+            <Breadcrumb maxItems={4} items={[
+              { label: "northwind", icon: "building-2", href: "#" },
+              { label: "Production", href: "#" },
+              { label: "Services", href: "#" },
+              { label: "edge-gateway", href: "#" },
+              { label: "Settings" },
+            ]} />
+          </div>
+          <div style={{ marginTop: 28 }}>
             <div className="lbl">Pill</div>
             <Tabs tabs={["Overview", "Activity", "Deployments", "Settings"]} defaultValue="Overview" />
           </div>

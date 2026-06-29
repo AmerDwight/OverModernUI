@@ -1,0 +1,82 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Overlay — Drawer, Popover, ⌘K" subtitle="Panels & command palette" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; padding: 28px 24px; background: var(--surface-base); }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-bottom: 30px; }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); width: 100%; margin-bottom: -2px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Drawer, Popover, CommandPalette, Button, IconButton, Icon, Switch } = window.OverModernDesignSystem_22ac94;
+    function Demo() {
+      const [drawer, setDrawer] = React.useState(false);
+      const [cmdk, setCmdk] = React.useState(false);
+      React.useEffect(() => {
+        const h = (e) => { if ((e.metaKey || e.ctrlKey) && e.key === "k") { e.preventDefault(); setCmdk((o) => !o); } };
+        window.addEventListener("keydown", h);
+        return () => window.removeEventListener("keydown", h);
+      }, []);
+      return (
+        <div>
+          <div className="row">
+            <span className="lbl">Popover · interactive panel</span>
+            <Popover title="Filter deployments"
+              trigger={<Button variant="secondary" iconLeft={<Icon name="filter" size={16} />}>Filter</Button>}>
+              <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                <Switch label="Production only" defaultChecked />
+                <Switch label="Failed builds only" />
+                <Button variant="primary" size="sm" style={{ alignSelf: "flex-start" }}>Apply</Button>
+              </div>
+            </Popover>
+            <Popover side="bottom" align="end"
+              trigger={<IconButton icon="info" variant="solid" label="Info" />}>
+              This region is operating at 92% of provisioned capacity.
+            </Popover>
+          </div>
+
+          <div className="row">
+            <span className="lbl">Drawer · edge sheet</span>
+            <Button variant="secondary" iconLeft={<Icon name="panel-right-open" size={16} />} onClick={() => setDrawer(true)}>
+              Open drawer
+            </Button>
+            <Drawer open={drawer} onClose={() => setDrawer(false)} title="Deployment details" description="a3f9c1 · edge-gateway"
+              footer={<>
+                <Button variant="ghost" onClick={() => setDrawer(false)}>Close</Button>
+                <Button variant="primary" iconLeft={<Icon name="rotate-cw" size={16} />}>Redeploy</Button>
+              </>}>
+              Build logs, environment variables, and rollout status for this deployment would appear here.
+            </Drawer>
+          </div>
+
+          <div className="row">
+            <span className="lbl">Command palette · ⌘K</span>
+            <Button variant="secondary" iconLeft={<Icon name="search" size={16} />} onClick={() => setCmdk(true)}>
+              Open palette&nbsp;&nbsp;<kbd style={{ fontFamily: "var(--font-mono)", fontSize: 11, opacity: 0.6 }}>⌘K</kbd>
+            </Button>
+            <CommandPalette open={cmdk} onClose={() => setCmdk(false)} items={[
+              { group: "Navigation", label: "Go to Overview", icon: "layout-dashboard" },
+              { group: "Navigation", label: "Go to Deployments", icon: "rocket", hint: "12 active" },
+              { group: "Navigation", label: "Go to Databases", icon: "database" },
+              { group: "Actions", label: "New deployment", icon: "plus", shortcut: ["⌘", "D"] },
+              { group: "Actions", label: "Invite member", icon: "user-plus" },
+              { group: "Actions", label: "Toggle theme", icon: "moon", shortcut: ["⌘", "\u21e7", "L"] },
+            ]} />
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

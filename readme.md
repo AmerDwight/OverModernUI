@@ -153,14 +153,19 @@ How OverModern writes.
 in the Design System tab.
 
 **`components/`** — React primitives, read from `window.OverModernDesignSystem_22ac94`:
-- `core/` — **Button**, **IconButton**, **Icon**, **Badge**, **Avatar**, **Card**
-- `forms/` — **Input**, **Select**, **Switch**, **Checkbox** (+ radio)
-- `navigation/` — **Tabs** (pill / line)
-- `feedback/` — **Progress**, **Toast**
+- `core/` — **Button**, **IconButton**, **Icon**, **Badge**, **Avatar**, **Card**,
+  **Tag** (removable chips), **Spinner**, **Skeleton** (loading states)
+- `forms/` — **Input**, **Select**, **Switch**, **Checkbox** (+ radio), **Textarea**
+  (+ counter), **Slider** (filled track)
+- `navigation/` — **Tabs** (pill / line), **Breadcrumb** (path nav, collapse)
+- `feedback/` — **Progress**, **Toast**, **Alert** (inline banner, 4 tones), **EmptyState** (zero-data surface)
 - `overlay/` — **Tooltip** (hairline glass, 4 sides + kbd chip), **Modal** (glass
-  dialog over blurred scrim), **Menu** (dropdown — icons, shortcuts, danger rows)
-- `data/` — **Table** (mono header, custom cell renderers), **Pagination**
-  (ellipsis-collapsing, accent active page)
+  dialog over blurred scrim), **Menu** (dropdown — icons, shortcuts, danger rows),
+  **Drawer** (edge sheet, 3 sides), **Popover** (interactive anchored panel),
+  **CommandPalette** (⌘K, keyboard nav)
+- `data/` — **Table** (sortable headers, row selection, custom cells), **Pagination**
+  (ellipsis-collapsing, accent active page), **StatCard** (KPI tile + sparkline),
+  **Timeline** (connected event rail)
 
 **`templates/`** — starting folders consuming projects can copy. Each is a
 `.dc.html` Design Component that loads the system via `ds-base.js`.

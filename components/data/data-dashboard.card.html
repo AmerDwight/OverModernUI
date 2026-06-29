@@ -1,0 +1,52 @@
+<!-- @dsCard group="Components" viewport="760x520" name="Data — Stat cards & Timeline" subtitle="KPI tiles & event rail" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; padding: 24px; background: var(--surface-base); }
+  .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: var(--ls-overline);
+         text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 28px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { StatCard, Timeline, Badge } = window.OverModernDesignSystem_22ac94;
+    function Demo() {
+      return (
+        <div>
+          <div className="lbl">Stat cards · KPI tiles</div>
+          <div className="grid">
+            <StatCard icon="arrow-up-right" label="Requests" value="1.24M" unit="/min"
+              delta="+12.4%" sub="vs last hour" spark={[40,44,42,50,48,58,55,62,60,72]} />
+            <StatCard icon="timer" label="p99 latency" value="12.4" unit="ms"
+              delta="−3.1%" trend="up" sub="vs last hour" spark={[60,58,55,52,50,48,46,44,42,40]} />
+            <StatCard icon="triangle-alert" label="Error rate" value="0.02" unit="%"
+              delta="+0.01%" trend="down" spark={[10,12,11,13,12,14,16,15,18,20]} />
+            <StatCard icon="server" label="Active nodes" value="48" unit="/ 50" sub="2 draining" />
+          </div>
+
+          <div className="lbl">Timeline · deploy history</div>
+          <Timeline items={[
+            { icon: "rocket", variant: "success", title: "Deployed to production", time: "2m ago",
+              description: "a3f9c1 · Add edge cache invalidation", meta: <Badge variant="success" dot>Live</Badge> },
+            { icon: "git-commit-horizontal", title: "Pushed 3 commits to main", time: "18m ago",
+              description: "Bump runtime to v4.2.0" },
+            { icon: "triangle-alert", variant: "warning", title: "Rolled back billing webhook", time: "3h ago",
+              description: "Reverted to 7b2e08 after error spike." },
+            { icon: "user-plus", variant: "accent", title: "Marco joined the workspace", time: "1d ago" },
+          ]} />
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

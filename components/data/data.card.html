@@ -22,14 +22,14 @@
     function Demo() {
       const [page, setPage] = React.useState(3);
       const columns = [
-        { key: "service", header: "Service" },
+        { key: "service", header: "Service", sortable: true },
         { key: "owner", header: "Owner", render: (v) => (
           <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
             <Avatar name={v} size="sm" />{v}
           </span>
         ) },
-        { key: "region", header: "Region" },
-        { key: "rps", header: "Req/s", align: "right", numeric: true },
+        { key: "region", header: "Region", sortable: true },
+        { key: "rps", header: "Req/s", align: "right", numeric: true, sortable: true },
         { key: "status", header: "Status", align: "right", render: (v) => (
           <Badge variant={v === "up" ? "success" : v === "degraded" ? "warning" : "danger"} dot>{v}</Badge>
         ) },
@@ -43,8 +43,8 @@
       return (
         <div className="stack">
           <div>
-            <div className="lbl">Table · custom cells</div>
-            <Table columns={columns} rows={rows} rowKey="service" />
+            <div className="lbl">Table · sortable headers + row selection</div>
+            <Table columns={columns} rows={rows} rowKey="service" selectable defaultSort={{ key: "rps", dir: "desc" }} />
           </div>
           <div>
             <div className="lbl">Pagination</div>

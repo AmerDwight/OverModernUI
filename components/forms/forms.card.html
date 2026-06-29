@@ -1,4 +1,4 @@
-<!-- @dsCard group="Components" viewport="700x360" name="Forms — Inputs, Select, Switch, Checkbox" subtitle="Field controls & states" -->
+<!-- @dsCard group="Components" viewport="700x360" name="Forms — Inputs, Select, Switch, Textarea, Slider" subtitle="Field controls & states" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@
 <body>
   <div id="root"></div>
   <script type="text/babel">
-    const { Input, Select, Switch, Checkbox, Icon } = window.OverModernDesignSystem_22ac94;
+    const { Input, Select, Switch, Checkbox, Textarea, Slider, Icon } = window.OverModernDesignSystem_22ac94;
     function Demo() {
       return (
         <div className="grid">
@@ -25,16 +25,13 @@
             <Input label="Project name" placeholder="acme-prod" required />
             <Input label="Search" placeholder="Filter resources…" iconLeft={<Icon name="search" size={16} className="lead" />} />
             <Input label="Email" defaultValue="ada@over" error="That address is already in use." />
+            <Slider label="vCPU" min={1} max={16} step={1} defaultValue={4} ticks={["1", "8", "16"]} formatValue={(v) => `${v} cores`} />
           </div>
           <div className="stack">
             <Select label="Region" placeholder="Choose region" options={["us-east-1", "eu-west-2", "ap-south-1"]} />
+            <Textarea label="Release notes" placeholder="What changed in this deploy?" rows={3} maxLength={280} showCount />
             <Switch label="Enable telemetry" defaultChecked />
-            <Switch label="Maintenance mode" />
             <Checkbox label="Remember this device" defaultChecked />
-            <div style={{ display: "flex", gap: 18 }}>
-              <Checkbox radio name="p" value="pro" label="Pro" defaultChecked />
-              <Checkbox radio name="p" value="team" label="Team" />
-            </div>
           </div>
         </div>
       );
